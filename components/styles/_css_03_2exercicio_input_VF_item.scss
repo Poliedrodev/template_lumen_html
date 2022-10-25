@@ -1,0 +1,28 @@
+.css_03_2exercicio_input_VF_item {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 45px 1fr;
+
+  font-family: $fontPrincipal;
+  font-weight: 300;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+
+  list-style: none;
+  
+  .VF_input {
+    opacity: 1;
+    height: 21px;
+    width: 20px;
+    margin: 0 auto;
+    position: relative;
+    background: #f4f1f1;     
+    border: none;    
+    border-radius: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
+}

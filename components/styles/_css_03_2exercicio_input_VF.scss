@@ -1,0 +1,41 @@
+.css_03_2exercicio_input_VF {
+  margin-top: 16px;
+
+  font-family: $fontPrincipal;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+ 
+
+  counter-reset: list;
+  
+
+  .group_alternativa :first-child {
+    margin-top: 0 !important;
+  }
+
+  .parentesis_VF  {
+    position: relative;
+    &::after {
+      font-family: $fontPrincipal;
+      font-size: 20px;
+      font-weight: 600;
+      content: "(";
+      position: absolute;
+      left: -3px;
+      top: 0;
+ 
+    }
+
+    &::before {
+      font-family: $fontPrincipal;
+      font-size: 20px;
+      font-weight: 600;
+      content: ")";
+      position: absolute;
+      left: 17px;
+      z-index: 10;
+    }
+  }
+}

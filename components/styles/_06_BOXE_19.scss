@@ -1,0 +1,71 @@
+._06_BOXE_19 {
+  margin-top: 2.375rem;
+  padding: 16px 16px 24px 16px;
+  background-color: $fil_cor4;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &.artes {
+    background-color: $art_cor4;
+
+  }
+
+  &.biologia {
+    background-color: $bio_cor4;
+
+  }
+
+  &.quimica {
+    background-color: $qui_cor4;
+
+  }
+
+  &.fisica {
+    background-color: $fis_cor4;
+
+  }
+
+  &.filosofia {
+    background-color: $fil_cor4;
+
+  }
+
+
+  &.geografia {
+    background-color: $geo_cor4;
+  }
+
+
+  &.historia {
+    background-color: $his_cor4;
+  }
+
+
+  &.sociologia {
+    background-color: $soc_cor4;
+  }
+
+
+  &.lingua_inglesa {
+    background-color: $ing_cor4;
+
+  }
+
+  &.lingua_portuguesa {
+    background-color: $por_cor4;
+
+  }
+
+  &.producao_de_texto {
+    background-color: $ptx_cor4;
+
+  }
+
+
+  &.matematica {
+    background-color: $mat_cor4;
+  }
+
+}

@@ -1,0 +1,46 @@
+.css_03_2exercicio_container_edit_sem_numero {
+  margin-top: 31px;
+
+  position: relative;
+  font-family: $fontPrincipal;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+  
+
+  .btn_alin{
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+  }
+  .btn_salvar{
+    color:lightgray;
+    font-family: 'nunito sans';
+  
+  }
+
+  .btn {
+    background-image: url(img/save.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: -4px;
+    display: block;
+    margin-top: 6px;
+}
+  .group_exercicio {
+    margin: 0;
+
+    &::first-child {
+      margin: 0;
+    }
+  }
+
+}
+

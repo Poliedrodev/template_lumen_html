@@ -1,0 +1,961 @@
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  min-height: 400px;
+  height: fit-content;
+  width: 100%;
+
+  /* Or set a fixed height */
+  &.artes {
+    .prevNext a {
+      background-color: $art_cor2;
+    }
+
+    .slider-subtitle {
+      font-family: $fontPrincipal;
+      font-weight: 500;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      color: $art_cor2;
+      text-align: left;
+      font-size: 14px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+
+    }
+
+    .slider-credit {
+      font-family: $fontPrincipal;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      color: $art_cor2;
+      text-align: left;
+      font-size: 10px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+
+    }
+  }
+
+  &.lingua_portuguesa {
+    .prevNext a {
+      background-color: $por_cor2;
+    }
+
+    .slider-subtitle {
+      font-family: $fontPrincipal;
+      font-weight: 500;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      color: $por_cor2;
+      text-align: left;
+      font-size: 14px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+
+    }
+
+    .slider-credit {
+      font-family: $fontPrincipal;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      color: $por_cor2;
+      text-align: left;
+      font-size: 10px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+
+    }
+  }
+
+  &.matematica {
+    .prevNext a {
+      background-color: $mat_cor2;
+    }
+
+    .slider-subtitle {
+      font-family: $fontPrincipal;
+      font-weight: 500;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      color: $mat_cor2;
+      text-align: left;
+      font-size: 14px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+
+    }
+
+    .slider-credit {
+      font-family: $fontPrincipal;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      color: $mat_cor2;
+      text-align: left;
+      font-size: 10px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+
+    }
+  }
+
+  &.lingua_inglesa {
+
+    .prevNext a {
+      background-color: $ing_cor2;
+    }
+
+    .slider-subtitle {
+      font-family: $fontPrincipal;
+      font-weight: 500;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      color: $ing_cor2;
+      text-align: left;
+      font-size: 14px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+
+    }
+
+    .slider-credit {
+      font-family: $fontPrincipal;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      color: $ing_cor2;
+      text-align: left;
+      font-size: 10px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+
+    }
+  }
+}
+
+/* carroussel */
+
+.flex-direction-collumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 3px solid #cecece;
+  padding: 4px;
+  overflow: visible !important;
+  height: fit-content !important;
+}
+
+.CSSgal .carroussel-box {
+  /*   height: 700px; */
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s;
+}
+
+.slider-subtitle {
+  font-family: $fontPrincipal;
+  font-weight: 500;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.slider-credit {
+  font-family: $fontPrincipal;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.carroussel-content {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* SLIDES */
+
+.CSSgal .carroussel-box>* {
+  font-size: 1rem;
+  display: inline-flex;
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0;
+}
+
+.CSSgal .prevNext>div+div {
+  visibility: hidden;
+  /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+  z-index: 10;
+  border-radius: 16px;
+  background: white;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  line-height: 60px;
+  /* If you want to place numbers */
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+  top: -40px;
+}
+
+.CSSgal .prevNext a:hover {
+  opacity: 0.7;
+}
+
+.CSSgal .prevNext a+a {
+  left: auto;
+  right: 25px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+  background-size: 11px;
+
+}
+
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal>s:target~.bullets>* {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* ACTIVE */
+
+
+// A1
+#s1_A2:target~.bullets>*:nth-child(1),
+#s1_A3:target~.bullets>*:nth-child(1),
+#s1_A4:target~.bullets>*:nth-child(1),
+#s1_A5:target~.bullets>*:nth-child(1),
+#s1_A6:target~.bullets>*:nth-child(1),
+#s1_A7:target~.bullets>*:nth-child(1),
+#s1_A8:target~.bullets>*:nth-child(1),
+#s1_A9:target~.bullets>*:nth-child(1),
+// B1
+#s1_B2:target~.bullets>*:nth-child(1),
+#s1_B3:target~.bullets>*:nth-child(1),
+#s1_B4:target~.bullets>*:nth-child(1),
+#s1_B5:target~.bullets>*:nth-child(1),
+#s1_B6:target~.bullets>*:nth-child(1),
+#s1_B7:target~.bullets>*:nth-child(1),
+#s1_B8:target~.bullets>*:nth-child(1),
+#s1_B9:target~.bullets>*:nth-child(1),
+// C1
+#s1_C2:target~.bullets>*:nth-child(1),
+#s1_C3:target~.bullets>*:nth-child(1),
+#s1_C4:target~.bullets>*:nth-child(1),
+#s1_C5:target~.bullets>*:nth-child(1),
+#s1_C6:target~.bullets>*:nth-child(1),
+#s1_C7:target~.bullets>*:nth-child(1),
+#s1_C8:target~.bullets>*:nth-child(1),
+#s1_C9:target~.bullets>*:nth-child(1) {
+  background: rgba(255, 255, 255, 1);
+}
+
+// A2
+#s2_A3:target~.bullets>*:nth-child(2),
+#s2_A4:target~.bullets>*:nth-child(2),
+#s2_A5:target~.bullets>*:nth-child(2),
+#s2_A6:target~.bullets>*:nth-child(2),
+#s2_A7:target~.bullets>*:nth-child(2),
+#s2_A8:target~.bullets>*:nth-child(2),
+#s2_A9:target~.bullets>*:nth-child(2),
+#s2_A2:target~.bullets>*:nth-child(2),
+// B2
+#s2_B3:target~.bullets>*:nth-child(2),
+#s2_B4:target~.bullets>*:nth-child(2),
+#s2_B5:target~.bullets>*:nth-child(2),
+#s2_B6:target~.bullets>*:nth-child(2),
+#s2_B7:target~.bullets>*:nth-child(2),
+#s2_B8:target~.bullets>*:nth-child(2),
+#s2_B9:target~.bullets>*:nth-child(2),
+#s2_B2:target~.bullets>*:nth-child(2),
+// C2
+#s2_C3:target~.bullets>*:nth-child(2),
+#s2_C4:target~.bullets>*:nth-child(2),
+#s2_C5:target~.bullets>*:nth-child(2),
+#s2_C6:target~.bullets>*:nth-child(2),
+#s2_C7:target~.bullets>*:nth-child(2),
+#s2_C8:target~.bullets>*:nth-child(2),
+#s2_C9:target~.bullets>*:nth-child(2),
+#s2_C2:target~.bullets>*:nth-child(2) {
+  background: rgba(255, 255, 255, 1);
+}
+
+// A3
+#s3_A3:target~.bullets>*:nth-child(3),
+#s3_A4:target~.bullets>*:nth-child(3),
+#s3_A5:target~.bullets>*:nth-child(3),
+#s3_A6:target~.bullets>*:nth-child(3),
+#s3_A7:target~.bullets>*:nth-child(3),
+#s3_A8:target~.bullets>*:nth-child(3),
+#s3_A9:target~.bullets>*:nth-child(3),
+// B3
+#s3_B3:target~.bullets>*:nth-child(3),
+#s3_B4:target~.bullets>*:nth-child(3),
+#s3_B5:target~.bullets>*:nth-child(3),
+#s3_B6:target~.bullets>*:nth-child(3),
+#s3_B7:target~.bullets>*:nth-child(3),
+#s3_B8:target~.bullets>*:nth-child(3),
+#s3_B9:target~.bullets>*:nth-child(3),
+// C3
+#s3_C3:target~.bullets>*:nth-child(3),
+#s3_C4:target~.bullets>*:nth-child(3),
+#s3_C5:target~.bullets>*:nth-child(3),
+#s3_C6:target~.bullets>*:nth-child(3),
+#s3_C7:target~.bullets>*:nth-child(3),
+#s3_C8:target~.bullets>*:nth-child(3),
+#s3_C9:target~.bullets>*:nth-child(3) {
+  background: rgba(255, 255, 255, 1);
+}
+
+// A4
+#s4_A4:target~.bullets>*:nth-child(4),
+#s4_A5:target~.bullets>*:nth-child(4),
+#s4_A6:target~.bullets>*:nth-child(4),
+#s4_A7:target~.bullets>*:nth-child(4),
+#s4_A8:target~.bullets>*:nth-child(4),
+#s4_A9:target~.bullets>*:nth-child(4),
+// B4
+#s4_B4:target~.bullets>*:nth-child(4),
+#s4_B5:target~.bullets>*:nth-child(4),
+#s4_B6:target~.bullets>*:nth-child(4),
+#s4_B7:target~.bullets>*:nth-child(4),
+#s4_B8:target~.bullets>*:nth-child(4),
+#s4_B9:target~.bullets>*:nth-child(4),
+// C4
+#s4_C4:target~.bullets>*:nth-child(4),
+#s4_C5:target~.bullets>*:nth-child(4),
+#s4_C6:target~.bullets>*:nth-child(4),
+#s4_C7:target~.bullets>*:nth-child(4),
+#s4_C8:target~.bullets>*:nth-child(4),
+#s4_C9:target~.bullets>*:nth-child(4) {
+  background: rgba(255, 255, 255, 1);
+}
+
+// A5
+#s5_A5:target~.bullets>*:nth-child(5),
+#s5_A6:target~.bullets>*:nth-child(5),
+#s5_A7:target~.bullets>*:nth-child(5),
+#s5_A8:target~.bullets>*:nth-child(5),
+#s5_A9:target~.bullets>*:nth-child(5),
+// B5
+#s5_B5:target~.bullets>*:nth-child(5),
+#s5_B6:target~.bullets>*:nth-child(5),
+#s5_B7:target~.bullets>*:nth-child(5),
+#s5_B8:target~.bullets>*:nth-child(5),
+#s5_B9:target~.bullets>*:nth-child(5),
+// C5
+#s5_C5:target~.bullets>*:nth-child(5),
+#s5_C6:target~.bullets>*:nth-child(5),
+#s5_C7:target~.bullets>*:nth-child(5),
+#s5_C8:target~.bullets>*:nth-child(5),
+#s5_C9:target~.bullets>*:nth-child(5) {
+  background: rgba(255, 255, 255, 1);
+}
+
+// A6
+#s6_A6:target~.bullets>*:nth-child(6),
+#s6_A7:target~.bullets>*:nth-child(6),
+#s6_A8:target~.bullets>*:nth-child(6),
+#s6_A9:target~.bullets>*:nth-child(6),
+// B6
+#s6_B6:target~.bullets>*:nth-child(6),
+#s6_B7:target~.bullets>*:nth-child(6),
+#s6_B8:target~.bullets>*:nth-child(6),
+#s6_B9:target~.bullets>*:nth-child(6),
+// C6
+#s6_C6:target~.bullets>*:nth-child(6),
+#s6_C7:target~.bullets>*:nth-child(6),
+#s6_C8:target~.bullets>*:nth-child(6),
+#s6_C9:target~.bullets>*:nth-child(6) {
+  background: rgba(255, 255, 255, 1);
+}
+
+// A7
+#s7_A7:target~.bullets>*:nth-child(7),
+#s7_A8:target~.bullets>*:nth-child(7),
+#s7_A9:target~.bullets>*:nth-child(7),
+// B7
+#s7_B7:target~.bullets>*:nth-child(7),
+#s7_B8:target~.bullets>*:nth-child(7),
+#s7_B9:target~.bullets>*:nth-child(7),
+// C7
+#s7_C7:target~.bullets>*:nth-child(7),
+#s7_C8:target~.bullets>*:nth-child(7),
+#s7_C9:target~.bullets>*:nth-child(7) {
+  background: rgba(255, 255, 255, 1);
+}
+
+// A8
+#s8_A8:target~.bullets>*:nth-child(8),
+#s8_A9:target~.bullets>*:nth-child(8),
+// B8
+#s8_B8:target~.bullets>*:nth-child(8),
+#s8_B9:target~.bullets>*:nth-child(8),
+// C8
+#s8_C8:target~.bullets>*:nth-child(8),
+#s8_C9:target~.bullets>*:nth-child(8) {
+  background: rgba(255, 255, 255, 1);
+}
+
+
+#s9_A9:target~.bullets>*:nth-child(9),
+#s9_B9:target~.bullets>*:nth-child(9),
+#s9_C9:target~.bullets>*:nth-child(9) {
+  background: rgba(255, 255, 255, 1);
+}
+
+.CSSgal>s:target~.bullets>* {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal>s:target~.prevNext>* {
+  visibility: hidden;
+}
+
+// A1
+#s1_A2:target~.prevNext>*:nth-child(1),
+#s1_A3:target~.prevNext>*:nth-child(1),
+#s1_A4:target~.prevNext>*:nth-child(1),
+#s1_A5:target~.prevNext>*:nth-child(1),
+#s1_A6:target~.prevNext>*:nth-child(1),
+#s1_A7:target~.prevNext>*:nth-child(1),
+#s1_A8:target~.prevNext>*:nth-child(1),
+#s1_A9:target~.prevNext>*:nth-child(1) {
+  visibility: visible;
+}
+
+// B1
+#s1_B2:target~.prevNext>*:nth-child(1),
+#s1_B3:target~.prevNext>*:nth-child(1),
+#s1_B4:target~.prevNext>*:nth-child(1),
+#s1_B5:target~.prevNext>*:nth-child(1),
+#s1_B6:target~.prevNext>*:nth-child(1),
+#s1_B7:target~.prevNext>*:nth-child(1),
+#s1_B8:target~.prevNext>*:nth-child(1),
+#s1_B9:target~.prevNext>*:nth-child(1) {
+  visibility: visible;
+}
+
+// C1
+#s1_C2:target~.prevNext>*:nth-child(1),
+#s1_C3:target~.prevNext>*:nth-child(1),
+#s1_C4:target~.prevNext>*:nth-child(1),
+#s1_C5:target~.prevNext>*:nth-child(1),
+#s1_C6:target~.prevNext>*:nth-child(1),
+#s1_C7:target~.prevNext>*:nth-child(1),
+#s1_C8:target~.prevNext>*:nth-child(1),
+#s1_C9:target~.prevNext>*:nth-child(1) {
+  visibility: visible;
+}
+
+// A2
+#s2_A3:target~.prevNext>*:nth-child(2),
+#s2_A4:target~.prevNext>*:nth-child(2),
+#s2_A5:target~.prevNext>*:nth-child(2),
+#s2_A6:target~.prevNext>*:nth-child(2),
+#s2_A7:target~.prevNext>*:nth-child(2),
+#s2_A8:target~.prevNext>*:nth-child(2),
+#s2_A9:target~.prevNext>*:nth-child(2),
+#s2_A2:target~.prevNext>*:nth-child(2) {
+  visibility: visible;
+}
+
+// B2
+#s2_B3:target~.prevNext>*:nth-child(2),
+#s2_B4:target~.prevNext>*:nth-child(2),
+#s2_B5:target~.prevNext>*:nth-child(2),
+#s2_B6:target~.prevNext>*:nth-child(2),
+#s2_B7:target~.prevNext>*:nth-child(2),
+#s2_B8:target~.prevNext>*:nth-child(2),
+#s2_B9:target~.prevNext>*:nth-child(2),
+#s2_B2:target~.prevNext>*:nth-child(2) {
+  visibility: visible;
+}
+
+// C2
+#s2_C3:target~.prevNext>*:nth-child(2),
+#s2_C4:target~.prevNext>*:nth-child(2),
+#s2_C5:target~.prevNext>*:nth-child(2),
+#s2_C6:target~.prevNext>*:nth-child(2),
+#s2_C7:target~.prevNext>*:nth-child(2),
+#s2_C8:target~.prevNext>*:nth-child(2),
+#s2_C9:target~.prevNext>*:nth-child(2),
+#s2_C2:target~.prevNext>*:nth-child(2) {
+  visibility: visible;
+}
+
+// A3
+#s3_A3:target~.prevNext>*:nth-child(3),
+#s3_A4:target~.prevNext>*:nth-child(3),
+#s3_A5:target~.prevNext>*:nth-child(3),
+#s3_A6:target~.prevNext>*:nth-child(3),
+#s3_A7:target~.prevNext>*:nth-child(3),
+#s3_A8:target~.prevNext>*:nth-child(3),
+#s3_A9:target~.prevNext>*:nth-child(3),
+// B3
+#s3_B3:target~.prevNext>*:nth-child(3),
+#s3_B4:target~.prevNext>*:nth-child(3),
+#s3_B5:target~.prevNext>*:nth-child(3),
+#s3_B6:target~.prevNext>*:nth-child(3),
+#s3_B7:target~.prevNext>*:nth-child(3),
+#s3_B8:target~.prevNext>*:nth-child(3),
+#s3_B9:target~.prevNext>*:nth-child(3) {
+  visibility: visible;
+}
+
+// C3
+#s3_C3:target~.prevNext>*:nth-child(3),
+#s3_C4:target~.prevNext>*:nth-child(3),
+#s3_C5:target~.prevNext>*:nth-child(3),
+#s3_C6:target~.prevNext>*:nth-child(3),
+#s3_C7:target~.prevNext>*:nth-child(3),
+#s3_C8:target~.prevNext>*:nth-child(3),
+#s3_C9:target~.prevNext>*:nth-child(3) {
+  visibility: visible;
+}
+
+// A4
+#s4_A4:target~.prevNext>*:nth-child(4),
+#s4_A5:target~.prevNext>*:nth-child(4),
+#s4_A6:target~.prevNext>*:nth-child(4),
+#s4_A7:target~.prevNext>*:nth-child(4),
+#s4_A8:target~.prevNext>*:nth-child(4),
+#s4_A9:target~.prevNext>*:nth-child(4),
+// B4
+#s4_B4:target~.prevNext>*:nth-child(4),
+#s4_B5:target~.prevNext>*:nth-child(4),
+#s4_B6:target~.prevNext>*:nth-child(4),
+#s4_B7:target~.prevNext>*:nth-child(4),
+#s4_B8:target~.prevNext>*:nth-child(4),
+#s4_B9:target~.prevNext>*:nth-child(4) {
+  visibility: visible;
+}
+
+// C4
+#s4_C4:target~.prevNext>*:nth-child(4),
+#s4_C5:target~.prevNext>*:nth-child(4),
+#s4_C6:target~.prevNext>*:nth-child(4),
+#s4_C7:target~.prevNext>*:nth-child(4),
+#s4_C8:target~.prevNext>*:nth-child(4),
+#s4_C9:target~.prevNext>*:nth-child(4) {
+  visibility: visible;
+}
+
+// A5
+#s5_A5:target~.prevNext>*:nth-child(5),
+#s5_A6:target~.prevNext>*:nth-child(5),
+#s5_A7:target~.prevNext>*:nth-child(5),
+#s5_A8:target~.prevNext>*:nth-child(5),
+#s5_A9:target~.prevNext>*:nth-child(5),
+// B5
+#s5_B5:target~.prevNext>*:nth-child(5),
+#s5_B6:target~.prevNext>*:nth-child(5),
+#s5_B7:target~.prevNext>*:nth-child(5),
+#s5_B8:target~.prevNext>*:nth-child(5),
+#s5_B9:target~.prevNext>*:nth-child(5) {
+  visibility: visible;
+}
+
+// C5
+#s5_C5:target~.prevNext>*:nth-child(5),
+#s5_C6:target~.prevNext>*:nth-child(5),
+#s5_C7:target~.prevNext>*:nth-child(5),
+#s5_C8:target~.prevNext>*:nth-child(5),
+#s5_C9:target~.prevNext>*:nth-child(5) {
+  visibility: visible;
+}
+
+// A6
+#s6_A6:target~.prevNext>*:nth-child(6),
+#s6_A7:target~.prevNext>*:nth-child(6),
+#s6_A8:target~.prevNext>*:nth-child(6),
+#s6_A9:target~.prevNext>*:nth-child(6),
+// B6
+#s6_B6:target~.prevNext>*:nth-child(6),
+#s6_B7:target~.prevNext>*:nth-child(6),
+#s6_B8:target~.prevNext>*:nth-child(6),
+#s6_B9:target~.prevNext>*:nth-child(6) {
+  visibility: visible;
+}
+
+// C6
+#s6_C6:target~.prevNext>*:nth-child(6),
+#s6_C7:target~.prevNext>*:nth-child(6),
+#s6_C8:target~.prevNext>*:nth-child(6),
+#s6_C9:target~.prevNext>*:nth-child(6) {
+  visibility: visible;
+}
+
+// A7
+#s7_A7:target~.prevNext>*:nth-child(7),
+#s7_A8:target~.prevNext>*:nth-child(7),
+#s7_A9:target~.prevNext>*:nth-child(7),
+// A7
+#s7_B7:target~.prevNext>*:nth-child(7),
+#s7_B8:target~.prevNext>*:nth-child(7),
+#s7_B9:target~.prevNext>*:nth-child(7) {
+  visibility: visible;
+}
+
+// C7
+#s7_C7:target~.prevNext>*:nth-child(7),
+#s7_C8:target~.prevNext>*:nth-child(7),
+#s7_C9:target~.prevNext>*:nth-child(7) {
+  visibility: visible;
+}
+
+// A8
+#s8_A8:target~.prevNext>*:nth-child(8),
+#s8_A9:target~.prevNext>*:nth-child(8),
+// B8
+#s8_B8:target~.prevNext>*:nth-child(8),
+#s8_B9:target~.prevNext>*:nth-child(8),
+// C8
+#s8_C8:target~.prevNext>*:nth-child(8),
+#s8_C9:target~.prevNext>*:nth-child(8) {
+  visibility: visible;
+}
+
+#s9_A9:target~.prevNext>*:nth-child(9),
+#s9_B9:target~.prevNext>*:nth-child(9),
+#s9_C9:target~.prevNext>*:nth-child(9) {
+  visibility: visible;
+}
+
+/* More slides? Add here more rules */
+
+/* carroussel ANIMATION POSITIONS */
+// A1
+#s1_A2:target~.carroussel-box,
+#s1_A3:target~.carroussel-box,
+#s1_A4:target~.carroussel-box,
+#s1_A5:target~.carroussel-box,
+#s1_A6:target~.carroussel-box,
+#s1_A7:target~.carroussel-box,
+#s1_A8:target~.carroussel-box,
+#s1_A9:target~.carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+}
+
+// B1
+#s1_B2:target~.carroussel-box,
+#s1_B3:target~.carroussel-box,
+#s1_B4:target~.carroussel-box,
+#s1_B5:target~.carroussel-box,
+#s1_B6:target~.carroussel-box,
+#s1_B7:target~.carroussel-box,
+#s1_B8:target~.carroussel-box,
+#s1_B9:target~.carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+}
+
+// C1
+#s1_C2:target~.carroussel-box,
+#s1_C3:target~.carroussel-box,
+#s1_C4:target~.carroussel-box,
+#s1_C5:target~.carroussel-box,
+#s1_C6:target~.carroussel-box,
+#s1_C7:target~.carroussel-box,
+#s1_C8:target~.carroussel-box,
+#s1_C9:target~.carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+}
+
+// A2
+#s2_A2:target~.carroussel-box,
+#s2_A3:target~.carroussel-box,
+#s2_A4:target~.carroussel-box,
+#s2_A5:target~.carroussel-box,
+#s2_A6:target~.carroussel-box,
+#s2_A7:target~.carroussel-box,
+#s2_A8:target~.carroussel-box,
+#s2_A9:target~.carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+// B2
+#s2_B2:target~.carroussel-box,
+#s2_B3:target~.carroussel-box,
+#s2_B4:target~.carroussel-box,
+#s2_B5:target~.carroussel-box,
+#s2_B6:target~.carroussel-box,
+#s2_B7:target~.carroussel-box,
+#s2_B8:target~.carroussel-box,
+#s2_B9:target~.carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+// C2
+#s2_C2:target~.carroussel-box,
+#s2_C3:target~.carroussel-box,
+#s2_C4:target~.carroussel-box,
+#s2_C5:target~.carroussel-box,
+#s2_C6:target~.carroussel-box,
+#s2_C7:target~.carroussel-box,
+#s2_C8:target~.carroussel-box,
+#s2_C9:target~.carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+// A3
+#s3_A3:target~.carroussel-box,
+#s3_A4:target~.carroussel-box,
+#s3_A5:target~.carroussel-box,
+#s3_A6:target~.carroussel-box,
+#s3_A7:target~.carroussel-box,
+#s3_A8:target~.carroussel-box,
+#s3_A9:target~.carroussel-box,
+// B3
+#s3_B3:target~.carroussel-box,
+#s3_B4:target~.carroussel-box,
+#s3_B5:target~.carroussel-box,
+#s3_B6:target~.carroussel-box,
+#s3_B7:target~.carroussel-box,
+#s3_B8:target~.carroussel-box,
+#s3_B9:target~.carroussel-box {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%);
+}
+// C3
+#s3_C3:target~.carroussel-box,
+#s3_C4:target~.carroussel-box,
+#s3_C5:target~.carroussel-box,
+#s3_C6:target~.carroussel-box,
+#s3_C7:target~.carroussel-box,
+#s3_C8:target~.carroussel-box,
+#s3_C9:target~.carroussel-box {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%);
+}
+
+// A4
+#s4_A4:target~.carroussel-box,
+#s4_A5:target~.carroussel-box,
+#s4_A6:target~.carroussel-box,
+#s4_A7:target~.carroussel-box,
+#s4_A8:target~.carroussel-box,
+#s4_A9:target~.carroussel-box,
+// B4
+#s4_B4:target~.carroussel-box,
+#s4_B5:target~.carroussel-box,
+#s4_B6:target~.carroussel-box,
+#s4_B7:target~.carroussel-box,
+#s4_B8:target~.carroussel-box,
+#s4_B9:target~.carroussel-box {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%);
+}
+// C4
+#s4_C4:target~.carroussel-box,
+#s4_C5:target~.carroussel-box,
+#s4_C6:target~.carroussel-box,
+#s4_C7:target~.carroussel-box,
+#s4_C8:target~.carroussel-box,
+#s4_C9:target~.carroussel-box {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%);
+}
+
+// A5
+#s5_A5:target~.carroussel-box,
+#s5_A6:target~.carroussel-box,
+#s5_A7:target~.carroussel-box,
+#s5_A8:target~.carroussel-box,
+#s5_A9:target~.carroussel-box,
+// B5
+#s5_B5:target~.carroussel-box,
+#s5_B6:target~.carroussel-box,
+#s5_B7:target~.carroussel-box,
+#s5_B8:target~.carroussel-box,
+#s5_B9:target~.carroussel-box {
+  transform: translateX(-400%);
+  -webkit-transform: translateX(-400%);
+}
+// C5
+#s5_C5:target~.carroussel-box,
+#s5_C6:target~.carroussel-box,
+#s5_C7:target~.carroussel-box,
+#s5_C8:target~.carroussel-box,
+#s5_C9:target~.carroussel-box {
+  transform: translateX(-400%);
+  -webkit-transform: translateX(-400%);
+}
+
+// A6
+#s6_A6:target~.carroussel-box,
+#s6_A7:target~.carroussel-box,
+#s6_A8:target~.carroussel-box,
+#s6_A9:target~.carroussel-box,
+// B6
+#s6_B6:target~.carroussel-box,
+#s6_B7:target~.carroussel-box,
+#s6_B8:target~.carroussel-box,
+#s6_B9:target~.carroussel-box {
+  transform: translateX(-500%);
+  -webkit-transform: translateX(-500%);
+}
+// C6
+#s6_C6:target~.carroussel-box,
+#s6_C7:target~.carroussel-box,
+#s6_C8:target~.carroussel-box,
+#s6_C9:target~.carroussel-box {
+  transform: translateX(-500%);
+  -webkit-transform: translateX(-500%);
+}
+
+
+// A7
+#s7_A7:target~.carroussel-box,
+#s7_A8:target~.carroussel-box,
+#s7_A9:target~.carroussel-box,
+// B7
+#s7_B7:target~.carroussel-box,
+#s7_B8:target~.carroussel-box,
+#s7_B9:target~.carroussel-box {
+  transform: translateX(-600%);
+  -webkit-transform: translateX(-600%);
+}
+// C7
+#s7_C7:target~.carroussel-box,
+#s7_C8:target~.carroussel-box,
+#s7_C9:target~.carroussel-box {
+  transform: translateX(-600%);
+  -webkit-transform: translateX(-600%);
+}
+
+// A8
+#s8_A8:target~.carroussel-box,
+#s8_A9:target~.carroussel-box, 
+// B8
+#s8_B8:target~.carroussel-box,
+#s8_B9:target~.carroussel-box {
+  transform: translateX(-700%);
+  -webkit-transform: translateX(-700%);
+}
+// C8
+#s8_C8:target~.carroussel-box,
+#s8_C9:target~.carroussel-box {
+  transform: translateX(-700%);
+  -webkit-transform: translateX(-700%);
+}
+
+#s9_A9:target~.carroussel-box,
+#s9_B9:target~.carroussel-box,
+#s9_C9:target~.carroussel-box {
+  transform: translateX(-800%);
+  -webkit-transform: translateX(-800%);
+}
+
+/* More slides? Add here more rules */
+
+
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+
+
+// #s1_A2,
+// #s1_A3,
+// #s1_A4,
+// #s1_A5,
+// #s1_A6,
+// #s1_A7,
+// #s1_A8,
+// #s1_A9,
+// #s1_B2,
+// #s2_A2,
+// #s2_A3,
+// #s2_A4,
+// #s2_A5,
+// #s2_A6,
+// #s2_A7,
+// #s2_A8,
+// #s2_A9,
+// #s3_A3,
+// #s3_A4,
+// #s3_A5,
+// #s3_A6,
+// #s3_A7,
+// #s3_A8,
+// #s3_A9,
+// #s4_A4,
+// #s4_A5,
+// #s4_A6,
+// #s4_A7,
+// #s4_A8,
+// #s4_A9,
+// #s5_A5,
+// #s5_A6,
+// #s5_A7,
+// #s5_A8,
+// #s5_A9,
+// #s6_A6,
+// #s6_A7,
+// #s6_A8,
+// #s6_A9,
+// #s7_A7,
+// #s7_A8,
+// #s7_A9,
+// #s8_A8,
+// #s8_A9,
+// #s9_A9,
+// #s1_B2,
+// #s2_B2,
+// #s3_B2,
+// #s4_B2,
+// #s5_B2,
+// #s6_B2,
+// #s7_B2,
+// #s8_B2,
+// #s9_B2 
+
+
+.CSSgal s {
+  position: absolute;
+  top: -20vh;
+}

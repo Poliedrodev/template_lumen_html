@@ -1,0 +1,77 @@
+._06_BOXE_03 {
+  margin-top: 2.375rem;
+  width: 100%;
+  border: 3px solid $seg_mat_cor1;
+  
+
+  &:first-child{
+    margin-top: 0;
+  }
+
+  position: relative;
+
+  .header_06_BOXE_03 {
+    font-family: $fonteNova;
+    position: absolute;
+    top: -25px;
+    left: -3px;
+    background-color: $seg_mat_cor2;
+    border: 3px solid $seg_mat_cor1;
+    width: 220px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .icon_06_BOXE_03 {
+      width: 36px;
+      height: 36px;
+    }
+
+    .title_06_BOXE_03 {     
+      font-size: 20px;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+    }
+  }
+
+  .main_06_BOXE_03 {
+    padding: 38px 16px 24px 16px;
+  }
+
+  &._mat_su_tec {
+    .header_06_BOXE_03 {
+      border: 3px solid $seg_mat_cor1;
+      background-color: $seg_mat_cor2;
+    }
+
+    border: 3px solid $seg_mat_cor1;
+  }
+
+  &._cie_hu_su_tec {
+    .header_06_BOXE_03 {
+      border: 3px solid $seg_nat_cor1;
+      background-color: $seg_nat_cor2;
+    }
+
+    border: 3px solid $seg_nat_cor1;
+  }
+
+  &._lin_su_tec {
+    .header_06_BOXE_03 {
+      border: 3px solid $seg_lin_cor1;
+      background-color: $seg_lin_cor2;
+    }
+
+    border: 3px solid $seg_lin_cor1;
+  }
+
+  &._cie_hu_so_api {
+    .header_06_BOXE_03 {
+      border: 3px solid $seg_hum_cor1;
+      background-color: $seg_hum_cor2;
+    }
+
+    border: 3px solid $seg_hum_cor1;
+  }
+}

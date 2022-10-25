@@ -1,0 +1,148 @@
+.css_01_titulo1 {
+
+  /* Características do componente */
+  display: inline-flex;
+
+  .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+  }
+
+  .texto {
+    font-family: $fonteNova;
+    font-weight: 800;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+
+  /* Variações de cores */
+  &.artes {
+    .texto {
+      color: $art_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+  &.biologia {
+    .texto {
+      color: $bio_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+  &.quimica {
+    .texto {
+      color: $qui_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+  &.fisica {
+    .texto {
+      color: $fis_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+
+  &.geografia {
+    .texto {
+      color: $geo_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+  }
+
+
+  &.historia {
+    .texto {
+      color: $his_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+  }
+
+
+  &.sociologia {
+    .texto {
+      color: $soc_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+  }
+
+
+  &.lingua_inglesa {
+    .texto {
+      color: $ing_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+  &.lingua_portuguesa {
+    .texto {
+      color: $por_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+  &.producao_de_texto {
+    .texto {
+      color: $ptx_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+
+  &.matematica {
+    .texto {
+      color: $mat_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+  }
+
+}
