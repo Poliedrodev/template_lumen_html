@@ -1,6 +1,6 @@
 {
   "name": "template_lumen",
-  "description": "Studio Digital Editor Poliedro Template Zero",
+  "description": "Studio Digital Editor Poliedro Template Lumen",
   "version": "1.8.0",
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
@@ -2971,20 +2971,18 @@
         }
       }
     },
+
     {
       "name": "image",
       "icon": "icons/components/image.svg",
-      "label": {
-        "key": "COMPONENT_IMAGE2_LABEL"
-      },
+      "label": "Imagem Lumen",
       "properties": [
-        "position",
+        "style_image_fit_content",
         "width",
+        "position",
         "style",
         "inside-caption",
         "text-align",
-        "letter-spacing",
-        "line-height",
         {
           "name": "edit-image",
           "directiveKey": "image"
@@ -3007,45 +3005,13 @@
         }
       }
     },
-    {
-      "name": "image2",
-      "icon": "icons/components/image.svg",
-      "label": {
-        "key": "COMPONENT_IMAGE_LABEL"
-      },
-      "properties": [
-        "style_image_fit_content",
-        "position",
-        "style",
-        "style_image",
-        "inside-caption",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "caption": {
-          "autofill": {
-            "source": "image2",
-            "metadataField": "ContentMetaData/Description"
-          },
-          "stripStylingOnPaste": true
-        },
-        "credit": {
-          "autofill": {
-            "source": "image2",
-            "metadataField": "ContentMetaData/Description"
-          },
-          "stripStylingOnPaste": true
-        }
-      }
-    },
+
+
     {
       "name": "audio_interno",
       "icon": "icons/components/icon_00_arte.svg",
       "label": "Áudio Interno",
       "properties": [
-        
         "text-align",
         "letter-spacing",
         "line-height",
@@ -3055,6 +3021,7 @@
         }
       ]
     },
+
     {
       "name": "audio_externo",
       "icon": "icons/components/icon_00_arte.svg",
@@ -3754,6 +3721,7 @@
         }
       }
     },
+
     {
       "name": "image_inline",
       "icon": "icons/components/image.svg",
@@ -3787,6 +3755,7 @@
         }
       }
     },
+
     {
       "name": "slideshow_2_C_images",
       "icon": "icons/components/slideshow.svg",
@@ -4712,17 +4681,12 @@
       "name": "media",
       "components": [
         "image",
-        "image2",
         "embed",
         "product",
         "social-media",
         "container_video",
         "audio",
         "image_inline",
-        "video_interno",
-        "video_externo",
-        "audio_interno",
-        "audio_externo",
         "slideshow_2_images",
         "slideshow_3_images",
         "slideshow_4_images",
@@ -4787,7 +4751,7 @@
                 "0": "Imagem Título (remove as margens)"
               }
             },
-            "value": "_image2_titulo"
+            "value": "_image_titulo"
           }
         ]
       },
@@ -5526,7 +5490,7 @@
       },
       "control": {
         "type": "image-editor",
-        "focuspoint": true
+        "focuspoint": false
       },
       "dataType": "doc-image"
     },
@@ -5773,13 +5737,7 @@
       }
     },
     "image": {
-      "hero": "auto",
-      "author": "auto",
-      "slideshow": {
-        "type": "to-container",
-        "container": "slideshow"
-      },
-      "product": "auto"
+      "image_inline": "auto"
     }
   },
   "shortcuts": {

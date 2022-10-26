@@ -32,20 +32,10 @@
 /* Ciências da Natureza */
 /* Ciências Humanas */
 /* Outros */
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@300;600;700;800&family=Bitter:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&family=Red+Hat+Display:ital,wght@0,300;0,600;0,700;1,300;1,600&display=swap);
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
-@font-face {
-  font-family: 'MathSymbol_JSD';
-  src: url("https://pmaislivrodigitalprd.blob.core.windows.net/assets/MathSymbol_JSD-Regular.otf?22t19m") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block; }
-
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap);
 ol,
 ul,
 li {
@@ -63,6 +53,13 @@ h3 {
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 /* Font embeds, examples see: https://www.google.com/fonts */
 /* Imports the style from the google fonts cdn */
+@font-face {
+  font-family: 'MathSymbol_JSD';
+  src: url("https://pmaislivrodigitalprd.blob.core.windows.net/assets/MathSymbol_JSD-Regular.otf?22t19m") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
 /* Article view style */
 .body-book,
 .body {
@@ -196,6 +193,11 @@ span[data-text-edit-color] a {
   @include triple-blinking-spans();
  }
  */
+span[style="text-decoration: line-through;"] {
+  font-family: 'MathSymbol_JSD' !important;
+  font-style: normal !important;
+  text-decoration: none !important; }
+
 /**
  Additional styles for .social and .video components
  */
@@ -2009,7 +2011,7 @@ span[data-text-edit-color] a {
     .group_checkbox .container_questao_checkbox .textradio_inline,
     .container_grupo_checkbox .container_questao_checkbox .textradio_inline,
     .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .textradio_inline {
-      font-family: 'Noticia Text';
+      font-family: "Bitter";
       font-weight: 400;
       font-size: 16px;
       color: #000000;
@@ -2038,7 +2040,7 @@ span[data-text-edit-color] a {
     width: 235px;
     text-align: center;
     padding: 3px;
-    font-family: montserrat;
+    font-family: "Red Hat Display";
     font-weight: 700; }
   .container_read_more .line3 {
     width: 100%;
@@ -5104,7 +5106,45 @@ span[data-text-edit-color] a {
   margin: 12px auto;
   position: relative;
   clear: both;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   /* class styles for the captions properties of the image component */ }
+  .image ._image {
+    width: 100%; }
+  .image._image_titulo {
+    margin: 0 auto !important; }
+    .image._image_titulo figcaption {
+      color: #000000;
+      margin-top: 4px;
+      margin-bottom: 2px; }
+  .image .slider-subtitle {
+    position: relative;
+    margin-top: 8px; }
+  .image .slider-subtitle::before {
+    content: "";
+    height: 2px;
+    width: 26%;
+    position: absolute;
+    left: 0;
+    top: -4px; }
+  .image.artes .slider-subtitle::before {
+    background-color: #bfd730; }
+  .image.lingua_portuguesa .slider-subtitle::before {
+    background-color: #bfd730; }
+  .image.lingua_inglesa .slider-subtitle::before {
+    background-color: #bfd730; }
+  .image.matematica .slider-subtitle::before {
+    background-color: #F1CB40; }
+  .image._left {
+    margin-left: 0px; }
+  .image._right {
+    margin-right: 0px; }
+  .image._100 img {
+    margin: auto; }
+  .image._200 img {
+    width: 30%;
+    margin: auto; }
   .image.full-screen {
     position: relative !important;
     height: 100% !important;
@@ -5132,7 +5172,7 @@ span[data-text-edit-color] a {
     color: #000000;
     margin-top: 4px;
     margin-bottom: 2px; }
-  .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .image2._caption-inside > figcaption, .image .image2._caption-top > figcaption, .image .image2._caption-top-left > figcaption, .image .image2._caption-top-right > figcaption, .image .image2._caption-bottom-left > figcaption, .image .image2._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption {
+  .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -5140,7 +5180,7 @@ span[data-text-edit-color] a {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .image2._caption-inside > figcaption::before, .image .image2._caption-top > figcaption::before, .image .image2._caption-top-left > figcaption::before, .image .image2._caption-top-right > figcaption::before, .image .image2._caption-bottom-left > figcaption::before, .image .image2._caption-bottom-right > figcaption::before, .image .imagem_inline._caption-inside > figcaption::before, .image .imagem_inline._caption-top > figcaption::before, .image .imagem_inline._caption-top-left > figcaption::before, .image .imagem_inline._caption-top-right > figcaption::before, .image .imagem_inline._caption-bottom-left > figcaption::before, .image .imagem_inline._caption-bottom-right > figcaption::before {
+    .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .imagem_inline._caption-inside > figcaption::before, .image .imagem_inline._caption-top > figcaption::before, .image .imagem_inline._caption-top-left > figcaption::before, .image .imagem_inline._caption-top-right > figcaption::before, .image .imagem_inline._caption-bottom-left > figcaption::before, .image .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .image._caption-inside > figcaption {
     right: 0;
@@ -5170,140 +5210,20 @@ span[data-text-edit-color] a {
     right: 0;
     bottom: 0;
     width: 30%; }
+  .image .image .place-holder:hover {
+    top: 0;
+    left: 0; }
   @media only screen and (min-width: 481px) {
     .image {
       /* class styles for the position properties of the image component */ }
       .image._left {
         float: left;
         clear: left;
-        width: calc(50% - 15px);
-        margin-right: 15px;
-        z-index: 1; }
-      .image._right {
-        float: right;
-        clear: right;
-        width: 50%;
-        z-index: 1; } }
-
-/* Image component style */
-.image2 {
-  margin: 12px auto;
-  position: relative;
-  clear: both;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  /* class styles for the captions properties of the image component */ }
-  .image2 ._image {
-    width: 100%; }
-  .image2._image2_titulo {
-    margin: 0 auto !important; }
-  .image2 .slider-subtitle {
-    position: relative;
-    margin-top: 8px; }
-  .image2 .slider-subtitle::before {
-    content: "";
-    height: 2px;
-    width: 26%;
-    position: absolute;
-    left: 0;
-    top: -4px; }
-  .image2.artes .slider-subtitle::before {
-    background-color: #bfd730; }
-  .image2.lingua_portuguesa .slider-subtitle::before {
-    background-color: #bfd730; }
-  .image2.lingua_inglesa .slider-subtitle::before {
-    background-color: #bfd730; }
-  .image2.matematica .slider-subtitle::before {
-    background-color: #F1CB40; }
-  .image2._left {
-    margin-left: 0px; }
-  .image2._right {
-    margin-right: 0px; }
-  .image2._100 img {
-    margin: auto; }
-  .image2._200 img {
-    width: 30%;
-    margin: auto; }
-  .image2.full-screen {
-    position: relative !important;
-    height: 100% !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important; }
-    .image2.full-screen > div {
-      height: 100%; }
-  .image2._option1 > div {
-    border-radius: 25px; }
-  .image2 div {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-position: center center; }
-    .image2 div > a {
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0; }
-  .image2 > figcaption {
-    color: #000000;
-    margin-top: 4px;
-    margin-bottom: 2px; }
-  .image2 .image._caption-inside > figcaption, .image2 .image._caption-top > figcaption, .image2 .image._caption-top-left > figcaption, .image2 .image._caption-top-right > figcaption, .image2 .image._caption-bottom-left > figcaption, .image2 .image._caption-bottom-right > figcaption, .image2._caption-inside > figcaption, .image2._caption-top > figcaption, .image2._caption-top-left > figcaption, .image2._caption-top-right > figcaption, .image2._caption-bottom-left > figcaption, .image2._caption-bottom-right > figcaption, .image2 .imagem_inline._caption-inside > figcaption, .image2 .imagem_inline._caption-top > figcaption, .image2 .imagem_inline._caption-top-left > figcaption, .image2 .imagem_inline._caption-top-right > figcaption, .image2 .imagem_inline._caption-bottom-left > figcaption, .image2 .imagem_inline._caption-bottom-right > figcaption {
-    position: absolute;
-    padding: 8px 12px;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-weight: 400;
-    color: #3f3e3e;
-    margin: 0;
-    /* before represents the placeholder text*/ }
-    .image2 .image._caption-inside > figcaption::before, .image2 .image._caption-top > figcaption::before, .image2 .image._caption-top-left > figcaption::before, .image2 .image._caption-top-right > figcaption::before, .image2 .image._caption-bottom-left > figcaption::before, .image2 .image._caption-bottom-right > figcaption::before, .image2._caption-inside > figcaption::before, .image2._caption-top > figcaption::before, .image2._caption-top-left > figcaption::before, .image2._caption-top-right > figcaption::before, .image2._caption-bottom-left > figcaption::before, .image2._caption-bottom-right > figcaption::before, .image2 .imagem_inline._caption-inside > figcaption::before, .image2 .imagem_inline._caption-top > figcaption::before, .image2 .imagem_inline._caption-top-left > figcaption::before, .image2 .imagem_inline._caption-top-right > figcaption::before, .image2 .imagem_inline._caption-bottom-left > figcaption::before, .image2 .imagem_inline._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
-  .image2._caption-inside > figcaption {
-    right: 0;
-    bottom: 0;
-    left: 0; }
-  .image2._caption-none > figcaption {
-    display: none; }
-  .image2._caption-top > figcaption {
-    right: 0;
-    top: 0;
-    left: 0; }
-  .image2._caption-top-left > figcaption {
-    right: 0;
-    top: 0;
-    left: 0;
-    width: 30%; }
-  .image2._caption-top-right > figcaption {
-    right: 0;
-    top: 0;
-    width: 30%; }
-  .image2._caption-bottom-left > figcaption {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 30%; }
-  .image2._caption-bottom-right > figcaption {
-    right: 0;
-    bottom: 0;
-    width: 30%; }
-  .image2 .image .place-holder:hover {
-    top: 0;
-    left: 0; }
-  @media only screen and (min-width: 481px) {
-    .image2 {
-      /* class styles for the position properties of the image component */ }
-      .image2._left {
-        float: left;
-        clear: left;
         width: 46%;
         margin-right: 15px;
         margin-left: 0px;
         z-index: 1; }
-      .image2._right {
+      .image._right {
         float: right;
         clear: right;
         margin-right: 0px;
@@ -5445,7 +5365,7 @@ span[data-text-edit-color] a {
       color: #c9252c;
       font-size: 16px;
       font-weight: 700;
-      font-family: 'Montserrat';
+      font-family: '$fontPrincipal';
       text-transform: uppercase;
       border: 1px solid #ccc;
       margin-bottom: 10px; }
@@ -5453,7 +5373,7 @@ span[data-text-edit-color] a {
       border: 1px solid #ccc;
       color: #666;
       font-size: 14px;
-      font-family: 'Montserrat';
+      font-family: '$fontPrincipal';
       font-weight: 300; }
       .video_interno .video_popup__content .content-video__text span {
         color: #666 !important; }
@@ -5474,7 +5394,7 @@ span[data-text-edit-color] a {
   margin: 0 16px 16px 16px;
   color: #666;
   font-size: 14px;
-  font-family: 'Montserrat';
+  font-family: '$fontPrincipal';
   font-weight: 300; }
 
 /* Image component style */
@@ -5558,7 +5478,7 @@ span[data-text-edit-color] a {
       color: #c9252c;
       font-size: 16px;
       font-weight: 700;
-      font-family: 'Montserrat';
+      font-family: '$fontPrincipal';
       text-transform: uppercase;
       border: 1px solid #ccc;
       margin-bottom: 10px; }
@@ -5566,7 +5486,7 @@ span[data-text-edit-color] a {
       border: 1px solid #ccc;
       color: #666;
       font-size: 14px;
-      font-family: 'Montserrat';
+      font-family: '$fontPrincipal';
       font-weight: 300; }
       .video_externo .video_popup__content .content-video__text span {
         color: #666 !important; }
@@ -7551,7 +7471,7 @@ input[type="checkbox"] {
   gap: 0.5rem; }
 
 .collapsible-title {
-  font-family: "Anek Gurmukhi" !important;
+  font-family: "Bitter" !important;
   margin-top: 6px !important; }
 
 .css_06_boxe_em_biologia {
@@ -10279,7 +10199,7 @@ input[type="checkbox"] {
     color: #000000;
     font-family: "Red Hat Display";
     font-weight: 300; }
-  .imagem_inline .image._caption-inside > figcaption, .imagem_inline .image._caption-top > figcaption, .imagem_inline .image._caption-top-left > figcaption, .imagem_inline .image._caption-top-right > figcaption, .imagem_inline .image._caption-bottom-left > figcaption, .imagem_inline .image._caption-bottom-right > figcaption, .imagem_inline .image2._caption-inside > figcaption, .imagem_inline .image2._caption-top > figcaption, .imagem_inline .image2._caption-top-left > figcaption, .imagem_inline .image2._caption-top-right > figcaption, .imagem_inline .image2._caption-bottom-left > figcaption, .imagem_inline .image2._caption-bottom-right > figcaption, .imagem_inline._caption-inside > figcaption, .imagem_inline._caption-top > figcaption, .imagem_inline._caption-top-left > figcaption, .imagem_inline._caption-top-right > figcaption, .imagem_inline._caption-bottom-left > figcaption, .imagem_inline._caption-bottom-right > figcaption {
+  .imagem_inline .image._caption-inside > figcaption, .imagem_inline .image._caption-top > figcaption, .imagem_inline .image._caption-top-left > figcaption, .imagem_inline .image._caption-top-right > figcaption, .imagem_inline .image._caption-bottom-left > figcaption, .imagem_inline .image._caption-bottom-right > figcaption, .imagem_inline._caption-inside > figcaption, .imagem_inline._caption-top > figcaption, .imagem_inline._caption-top-left > figcaption, .imagem_inline._caption-top-right > figcaption, .imagem_inline._caption-bottom-left > figcaption, .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -10287,7 +10207,7 @@ input[type="checkbox"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .imagem_inline .image._caption-inside > figcaption::before, .imagem_inline .image._caption-top > figcaption::before, .imagem_inline .image._caption-top-left > figcaption::before, .imagem_inline .image._caption-top-right > figcaption::before, .imagem_inline .image._caption-bottom-left > figcaption::before, .imagem_inline .image._caption-bottom-right > figcaption::before, .imagem_inline .image2._caption-inside > figcaption::before, .imagem_inline .image2._caption-top > figcaption::before, .imagem_inline .image2._caption-top-left > figcaption::before, .imagem_inline .image2._caption-top-right > figcaption::before, .imagem_inline .image2._caption-bottom-left > figcaption::before, .imagem_inline .image2._caption-bottom-right > figcaption::before, .imagem_inline._caption-inside > figcaption::before, .imagem_inline._caption-top > figcaption::before, .imagem_inline._caption-top-left > figcaption::before, .imagem_inline._caption-top-right > figcaption::before, .imagem_inline._caption-bottom-left > figcaption::before, .imagem_inline._caption-bottom-right > figcaption::before {
+    .imagem_inline .image._caption-inside > figcaption::before, .imagem_inline .image._caption-top > figcaption::before, .imagem_inline .image._caption-top-left > figcaption::before, .imagem_inline .image._caption-top-right > figcaption::before, .imagem_inline .image._caption-bottom-left > figcaption::before, .imagem_inline .image._caption-bottom-right > figcaption::before, .imagem_inline._caption-inside > figcaption::before, .imagem_inline._caption-top > figcaption::before, .imagem_inline._caption-top-left > figcaption::before, .imagem_inline._caption-top-right > figcaption::before, .imagem_inline._caption-bottom-left > figcaption::before, .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .imagem_inline._caption-inside > figcaption {
     right: 0;
