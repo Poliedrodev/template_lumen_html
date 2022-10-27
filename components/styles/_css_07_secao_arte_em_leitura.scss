@@ -2,7 +2,8 @@
   background-color: #F7F9D9;
   min-height: 100px;
   position: relative;
-  margin: 80px 0px 40px 0px;
+  margin-top: 52px;
+  margin-bottom: 32px;
   padding: 38px 16px 16px 16px;
   box-sizing: border-box;
 
@@ -18,5 +19,6 @@
     font-size: 20px;
     line-height: 42px;
     font-family: $fonteNova;
+    font-weight: 700;
   }
 }

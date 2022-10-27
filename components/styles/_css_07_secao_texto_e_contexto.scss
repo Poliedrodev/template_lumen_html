@@ -3,7 +3,8 @@
   min-height: 100px;
   position: relative;
   padding: 16px;
-  margin-top: 68px;
+  margin-top: 52px;
+  margin-bottom: 32px;
   box-sizing: border-box;
 
   .tag {
@@ -18,5 +19,6 @@
     font-size: 20px;
     line-height: 42px;
     font-family: $fonteNova;
+    font-weight: 700;
   }
 }

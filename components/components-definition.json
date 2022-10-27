@@ -88,7 +88,7 @@
     {
       "name": "css_07_secao_no_enem_e_assim",
       "icon": "icons/components/container.svg",
-      "label": "Seção No Enem é Assim",
+      "label": "No Enem é Assim",
       "selectionMethod": "handle",
       "allowNesting": "yes",
       "properties": [
@@ -103,7 +103,7 @@
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
       "allowNesting": "yes",
-      "label": "Seção Texto e Contexto",
+      "label": "Texto e Contexto",
       "properties": [
         "style",
         "text-align",
@@ -116,7 +116,7 @@
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
       "allowNesting": "yes",
-      "label": "Seção Arte em Leitura",
+      "label": "Arte em Leitura",
       "properties": [
         "style",
         "text-align",
@@ -127,7 +127,7 @@
     {
       "name": "css_07_secao_por_dentro_da_arte",
       "icon": "icons/components/container.svg",
-      "label": "Seção Por Dentro da Arte",
+      "label": "Por Dentro da Arte",
       "properties": [
         "style",
         "text-align",
@@ -138,7 +138,7 @@
     {
       "name": "css_07_secao_leitura_de_documentos",
       "icon": "icons/components/container.svg",
-      "label": "Seção Leitura de Documentos",
+      "label": "Leitura de Documentos",
       "properties": [
         "style",
         "text-align",
@@ -149,7 +149,7 @@
     {
       "name": "css_07_secao_questao_resolvida",
       "icon": "icons/components/container.svg",
-      "label": "Seção Questão resolvida",
+      "label": "Seção Editável 1",
       "properties": [
         "style",
         "text-align",
@@ -160,7 +160,7 @@
     {
       "name": "css_07_secao_aplicando_conhecimentos",
       "icon": "icons/components/container.svg",
-      "label": "Seção Aplicando Conhecimentos",
+      "label": "Aplicando Conhecimentos",
       "properties": [
         "style",
         "text-align",
@@ -2463,7 +2463,7 @@
     {
       "name": "css_07_secao_consolidando_saberes",
       "icon": "icons/components/icon_07_secao_texto2.svg",
-      "label": "07 Seção Consolidando Saberes",
+      "label": "Consolidando Saberes",
       "properties": [
         "style",
         "text-align",
@@ -2474,7 +2474,7 @@
     {
       "name": "css_07_secao_superacao",
       "icon": "icons/components/icon_07_secao_texto2.svg",
-      "label": "07 Seção Superação",
+      "label": "Superação",
       "properties": [
         "style",
         "text-align",
@@ -4664,15 +4664,15 @@
       "label": "07 secoes",
       "name": "07_secoes",
       "components": [
-        "css_07_secao_consolidando_saberes",
-        "css_07_secao_superacao",
-        "css_07_secao_no_enem_e_assim",
         "css_07_secao_aplicando_conhecimentos",
-        "css_07_secao_questao_resolvida",
-        "css_07_secao_texto_e_contexto",
         "css_07_secao_arte_em_leitura",
-        "css_07_secao_por_dentro_da_arte",
+        "css_07_secao_consolidando_saberes",
         "css_07_secao_leitura_de_documentos",
+        "css_07_secao_no_enem_e_assim",
+        "css_07_secao_por_dentro_da_arte",
+        "css_07_secao_superacao",
+        "css_07_secao_texto_e_contexto",
+        "css_07_secao_questao_resolvida",
         "css_07_secao_exercicio_alternativa",
         "css_07_secao_exercicio_bullet",
         "css_07_secao_exercicio_continuacao",
