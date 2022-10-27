@@ -4528,12 +4528,7 @@
       "name": "01_aberturas_e_titulos",
       "components": [
         "css_01_titulo_cap_num_v2",
-        "css_01_titulo_cap_num",
-        "css_01_titulo_chapter_num",
-        "css_01_bullet_unid",
         "css_01_texto_unid",
-        "css_01_titulo_cap",
-        "css_01_titulo_unid",
         "css_01_titulo1",
         "css_01_titulo2",
         "css_01_titulo3",
@@ -4546,7 +4541,6 @@
       "components": [
         "css_02_2texto_bullet",
         "css_02_texto_bullet",
-        "css_02_texto_bullet_item_texto",
         "css_02_texto_citado_fonte",
         "css_02_texto_citado_titulo",
         "css_02_texto_citado",
@@ -4670,6 +4664,8 @@
       "label": "07 secoes",
       "name": "07_secoes",
       "components": [
+        "css_07_secao_consolidando_saberes",
+        "css_07_secao_superacao",
         "css_07_secao_no_enem_e_assim",
         "css_07_secao_aplicando_conhecimentos",
         "css_07_secao_questao_resolvida",
@@ -4692,8 +4688,6 @@
         "css_07_secao_titulo1",
         "css_07_secao_titulo2",
         "css_07_secao_titulo3",
-        "css_07_secao_consolidando_saberes",
-        "css_07_secao_superacao",
         "css_07_secao_titulo4"
       ]
     },
