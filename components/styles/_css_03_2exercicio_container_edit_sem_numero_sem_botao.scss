@@ -1,0 +1,19 @@
+.css_03_2exercicio_container_edit_sem_numero_sem_botao {
+  margin-top: 31px;
+  position: relative;
+  font-family: $fontPrincipal;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+  .group_exercicio {
+    margin: 0;
+
+    &::first-child {
+      margin: 0;
+    }
+  }
+
+}

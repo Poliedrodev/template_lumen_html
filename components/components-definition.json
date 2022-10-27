@@ -1731,10 +1731,25 @@
         "data_input"
       ]
     },
+
     {
       "name": "css_03_2exercicio_container_edit_sem_numero",
       "icon": "icons/components/container.svg",
-      "label": "Editável Container Sem Número",
+      "label": "Container Sem Número Consumível",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
+    {
+      "name": "css_03_2exercicio_container_edit_sem_numero_sem_botao",
+      "icon": "icons/components/container.svg",
+      "label": "Container Assets",
       "selectionMethod": "handle",
       "allowNesting": "yes",
       "properties": [
@@ -4564,6 +4579,7 @@
         "css_03_2exercicio_input_VF",
         "css_03_2exercicio_input_VF_item",
         "css_03_exercicio_container_edit",
+        "css_03_2exercicio_container_edit_sem_numero_sem_botao",
         "css_03_2exercicio_container_edit_sem_numero",
         "css_03_2exercicio_alternativa",
         "css_03_2exercicio_item",
