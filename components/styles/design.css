@@ -2595,11 +2595,11 @@ span[style="text-decoration: line-through;"] {
   font-family: "Red Hat Display";
   font-weight: 500;
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
   /* Características do componente */
   display: block;
   line-height: 1.8em;
-  border-left: solid 2px #ffffff;
+  border-left: solid 2px #000000;
   padding-left: 10px;
   /* Características do bullet */ }
   .css_01_bullet_unid._right {
@@ -2612,7 +2612,7 @@ span[style="text-decoration: line-through;"] {
 .css_01_texto_unid {
   font-family: "Titillium Web";
   font-size: 20px;
-  color: #FFF;
+  color: #000000;
   padding-bottom: 10px;
   margin: 16px 0px 16px 0px; }
 
@@ -2768,6 +2768,7 @@ span[style="text-decoration: line-through;"] {
 .css_01_titulo1 {
   /* Características do componente */
   display: inline-flex;
+  margin-left: -8px;
   /* Variações de cores */ }
   .css_01_titulo1 .icone {
     background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
@@ -3866,22 +3867,22 @@ span[style="text-decoration: line-through;"] {
   margin-top: 8px; }
 
 .css_05_credito1 {
-  display: block;
-  font-size: 12x;
-  color: #666666;
   font-family: "Red Hat Display";
   font-weight: 400;
-  margin-bottom: 0px;
-  padding: 0 68px; }
+  color: #000000;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
 
 .css_05_credito2 {
-  display: block;
-  font-size: 9.8px;
-  color: #666666;
   font-family: "Red Hat Display";
   font-weight: 400;
-  margin-bottom: 0px;
-  padding: 0 68px; }
+  color: #000000;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
 
 .css_05_fonte_mapa {
   display: block;
@@ -3950,86 +3951,13 @@ span[style="text-decoration: line-through;"] {
   margin-bottom: 0px; }
 
 .css_05_legenda {
-  display: block;
-  color: #000000;
   font-family: "Red Hat Display";
   font-weight: 400;
+  color: #000000;
+  text-align: left;
   font-size: 14px;
-  font-variant: tabular-nums;
-  margin-top: 4px; }
-  .css_05_legenda.artes {
-    color: #000000; }
-    .css_05_legenda.artes .line-legenda {
-      width: 162px;
-      height: 2px;
-      background-color: #bfd730;
-      margin-bottom: 4px; }
-      .css_05_legenda.artes .line-legenda.artes {
-        background-color: #bfd730; }
-      .css_05_legenda.artes .line-legenda.lingua_inglesa {
-        background-color: #bfd730; }
-      .css_05_legenda.artes .line-legenda.lingua_portuguesa {
-        background-color: #bfd730; }
-      .css_05_legenda.artes .line-legenda.matematica {
-        background-color: #F1CB40; }
-  .css_05_legenda.lingua_inglesa {
-    color: #000000; }
-    .css_05_legenda.lingua_inglesa .line-legenda {
-      width: 162px;
-      height: 2px;
-      background-color: #bfd730;
-      margin-bottom: 4px; }
-      .css_05_legenda.lingua_inglesa .line-legenda.artes {
-        background-color: #bfd730; }
-      .css_05_legenda.lingua_inglesa .line-legenda.lingua_inglesa {
-        background-color: #bfd730; }
-      .css_05_legenda.lingua_inglesa .line-legenda.lingua_portuguesa {
-        background-color: #bfd730; }
-      .css_05_legenda.lingua_inglesa .line-legenda.matematica {
-        background-color: #F1CB40; }
-  .css_05_legenda.lingua_portuguesa {
-    color: #000000; }
-    .css_05_legenda.lingua_portuguesa .line-legenda {
-      width: 162px;
-      height: 2px;
-      background-color: #bfd730;
-      margin-bottom: 4px; }
-      .css_05_legenda.lingua_portuguesa .line-legenda.artes {
-        background-color: #bfd730; }
-      .css_05_legenda.lingua_portuguesa .line-legenda.lingua_inglesa {
-        background-color: #bfd730; }
-      .css_05_legenda.lingua_portuguesa .line-legenda.lingua_portuguesa {
-        background-color: #bfd730; }
-      .css_05_legenda.lingua_portuguesa .line-legenda.matematica {
-        background-color: #F1CB40; }
-  .css_05_legenda.matematica {
-    color: #000000; }
-    .css_05_legenda.matematica .line-legenda {
-      width: 162px;
-      height: 2px;
-      background-color: #F1CB40;
-      margin-bottom: 4px; }
-      .css_05_legenda.matematica .line-legenda.artes {
-        background-color: #bfd730; }
-      .css_05_legenda.matematica .line-legenda.lingua_inglesa {
-        background-color: #bfd730; }
-      .css_05_legenda.matematica .line-legenda.lingua_portuguesa {
-        background-color: #bfd730; }
-      .css_05_legenda.matematica .line-legenda.matematica {
-        background-color: #F1CB40; }
-
-.line-legenda {
-  width: 162px;
-  height: 2px;
-  background-color: #000; }
-  .line-legenda.artes {
-    background-color: #bfd730; }
-  .line-legenda.lingua_inglesa {
-    background-color: #bfd730; }
-  .line-legenda.lingua_portuguesa {
-    background-color: #bfd730; }
-  .line-legenda.matematica {
-    background-color: #F1CB40; }
+  margin-top: 4px;
+  margin-bottom: 2px; }
 
 .css_05_linha_exercicio {
   display: block;
@@ -4152,19 +4080,12 @@ span[style="text-decoration: line-through;"] {
 
 .css_06_boxe_texto1 {
   display: block;
-  font-size: 16px;
-  color: #62883b;
+  color: #000000;
   font-family: "Red Hat Display";
   font-weight: 400;
-  line-height: 1.5em; }
-  .css_06_boxe_texto1.artes {
-    color: #62883b; }
-  .css_06_boxe_texto1.lingua_inglesa {
-    color: #62883b; }
-  .css_06_boxe_texto1.lingua_portuguesa {
-    color: #62883b; }
-  .css_06_boxe_texto1.matematica {
-    color: #C09100; }
+  line-height: 1.5em;
+  font-size: 18px;
+  margin-top: 15px; }
 
 .css_06_boxe_texto2 {
   display: block;
