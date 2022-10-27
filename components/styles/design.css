@@ -2835,7 +2835,7 @@ span[style="text-decoration: line-through;"] {
   font-weight: 400;
   font-size: 26px;
   color: #000000;
-  margin: 40px 0px 0px 68px;
+  margin-top: 40px;
   padding: 0px 0px 0px 0px;
   text-align: left;
   /* Variações de cores */ }
@@ -2871,7 +2871,6 @@ span[style="text-decoration: line-through;"] {
   /* Características do componente */
   display: block;
   margin-top: 20px;
-  padding: 0 68px;
   margin-bottom: 0px;
   line-height: 1.5em; }
 
@@ -2885,11 +2884,18 @@ span[style="text-decoration: line-through;"] {
   display: block;
   position: relative;
   margin-top: 15px;
-  padding: 0 68px;
   margin-bottom: 0px;
   line-height: 1.5em; }
 
 .css_02_texto_bullet {
+  display: block;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  line-height: 1.5em; }
+
+.css_02_2texto_bullet {
   display: block;
   font-size: 18px;
   color: #000000;
@@ -3193,6 +3199,8 @@ span[style="text-decoration: line-through;"] {
     .css_03_exercicio_container_edit .content_number .background_number {
       width: 34px;
       height: 24px;
+      background-color: #d6d6d6;
+      color: #ffffff;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -3206,8 +3214,63 @@ span[style="text-decoration: line-through;"] {
     margin: 0; }
     .css_03_exercicio_container_edit .group_exercicio::first-child {
       margin: 0; }
+  .css_03_exercicio_container_edit .btn2 {
+    background-image: url(img/save.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: -4px;
+    display: block;
+    margin-top: 6px; }
+    .css_03_exercicio_container_edit .btn2:active {
+      background-image: url(img/save_ok.png) !important; }
+  .css_03_exercicio_container_edit .btn_alin2 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    width: 100%;
+    grid-column: 2; }
+  .css_03_exercicio_container_edit .btn_salvar2 {
+    color: lightgray;
+    font-family: "Red Hat Display"; }
+  .css_03_exercicio_container_edit.artes .background_number {
+    background-color: #64428C; }
+  .css_03_exercicio_container_edit.biologia .background_number {
+    background-color: #45973D; }
+  .css_03_exercicio_container_edit.quimica .background_number {
+    background-color: #B80071; }
+  .css_03_exercicio_container_edit.fisica .background_number {
+    background-color: #00909B; }
+  .css_03_exercicio_container_edit.geografia .background_number {
+    background-color: #D85509; }
+  .css_03_exercicio_container_edit.historia .background_number {
+    background-color: #951B81; }
+  .css_03_exercicio_container_edit.sociologia .background_number {
+    background-color: #C71553; }
+  .css_03_exercicio_container_edit.filosofia .background_number {
+    background-color: #536DA7; }
+  .css_03_exercicio_container_edit.lingua_inglesa .background_number {
+    background-color: #069891; }
+  .css_03_exercicio_container_edit.lingua_portuguesa .background_number {
+    background-color: #c9252c; }
+  .css_03_exercicio_container_edit.producao_de_texto .background_number {
+    background-color: #0F83A6; }
+  .css_03_exercicio_container_edit.matematica .background_number {
+    background-color: #1961AC; }
+  .css_03_exercicio_container_edit.consolidando_saberes_mat .background_number {
+    background-color: #C09100; }
+  .css_03_exercicio_container_edit.consolidando_saberes_lin .background_number {
+    background-color: #62883b; }
+  .css_03_exercicio_container_edit.consolidando_saberes_cnt .background_number {
+    background-color: #BD8432; }
+  .css_03_exercicio_container_edit.consolidando_saberes_hum .background_number {
+    background-color: #208F6D; }
 
-.css_03_exercicio_alternativa {
+.css_03_2exercicio_alternativa {
   margin-top: 16px;
   font-family: "Red Hat Display";
   font-weight: 400;
@@ -3216,6 +3279,45 @@ span[style="text-decoration: line-through;"] {
   font-size: 18px;
   counter-reset: list;
   padding-inline-start: 41px; }
+  .css_03_2exercicio_alternativa .group_alternativa :first-child {
+    margin-top: 0 !important; }
+  .css_03_2exercicio_alternativa.item_romano_itens .css_03_exercicio_alternativa_item::before {
+    font-family: "Red Hat Display";
+    font-size: 1.125rem;
+    font-weight: 600;
+    counter-increment: list;
+    content: counter(list, lower-alpha) ")";
+    position: absolute;
+    left: -30px; }
+  .css_03_2exercicio_alternativa.itens .css_03_exercicio_alternativa_item::before {
+    counter-increment: list;
+    content: counter(list, decimal) "."; }
+  .css_03_2exercicio_alternativa.item_romano_itens .css_03_exercicio_alternativa_item::before {
+    counter-increment: list;
+    content: counter(list, upper-roman) "."; }
+  .css_03_2exercicio_alternativa.alternativa_assinalar_itens .css_03_exercicio_alternativa_item::after {
+    font-family: "Red Hat Display";
+    font-size: 20px;
+    font-weight: 600;
+    content: "(";
+    position: absolute;
+    left: -32px;
+    top: 0; }
+  .css_03_2exercicio_alternativa.alternativa_assinalar_itens .css_03_exercicio_alternativa_item::before {
+    font-family: "Red Hat Display";
+    font-size: 20px;
+    font-weight: 600;
+    content: ")";
+    position: absolute;
+    left: -16px; }
+
+.css_03_exercicio_alternativa {
+  margin-top: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px; }
   .css_03_exercicio_alternativa .group_alternativa :first-child {
     margin-top: 0 !important; }
   .css_03_exercicio_alternativa.item_romano_itens .css_03_exercicio_alternativa_item::before {
@@ -3343,7 +3445,7 @@ span[style="text-decoration: line-through;"] {
     position: absolute;
     left: -16px; }
 
-.css_03_exercicio_item {
+.css_03_2exercicio_item {
   margin-top: 16px;
   font-family: "Red Hat Display";
   font-weight: 400;
@@ -3352,6 +3454,14 @@ span[style="text-decoration: line-through;"] {
   font-size: 18px;
   counter-reset: list;
   padding-inline-start: 41px; }
+
+.css_03_exercicio_item {
+  margin-top: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px; }
 
 .css_03_exercicio_itens {
   margin-top: 16px;
@@ -3373,6 +3483,14 @@ span[style="text-decoration: line-through;"] {
     content: counter(list) ".";
     position: absolute;
     left: -32px; }
+
+.css_03_2exercicio_item_romano {
+  margin-top: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px; }
 
 .css_03_exercicio_item_romano {
   margin-top: 16px;
@@ -3552,7 +3670,7 @@ span[style="text-decoration: line-through;"] {
     display: flex; }
   .css_03_2exercicio_container_edit_sem_numero .btn_salvar {
     color: lightgray;
-    font-family: 'nunito sans'; }
+    font-family: "Red Hat Display"; }
   .css_03_2exercicio_container_edit_sem_numero .btn {
     background-image: url(img/save.png);
     background-repeat: no-repeat;
@@ -3569,6 +3687,116 @@ span[style="text-decoration: line-through;"] {
     margin: 0; }
     .css_03_2exercicio_container_edit_sem_numero .group_exercicio::first-child {
       margin: 0; }
+
+/* Image component style */
+.css_04_image_lumen {
+  margin: 12px auto;
+  position: relative;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* class styles for the captions properties of the image component */ }
+  .css_04_image_lumen ._image {
+    max-width: 100%; }
+  .css_04_image_lumen._fit_content ._image {
+    width: fit-content; }
+  .css_04_image_lumen._fit_content_margin_auto ._image {
+    width: fit-content;
+    margin: auto; }
+  .css_04_image_lumen._left {
+    margin-left: 0px; }
+  .css_04_image_lumen._right {
+    margin-right: 0px; }
+  .css_04_image_lumen._100 img {
+    margin: auto; }
+  .css_04_image_lumen._200 img {
+    width: 30%;
+    margin: auto; }
+  .css_04_image_lumen.full-screen {
+    position: relative !important;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important; }
+    .css_04_image_lumen.full-screen > div {
+      height: 100%; }
+  .css_04_image_lumen._option1 > div {
+    border-radius: 25px; }
+  .css_04_image_lumen div {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center; }
+    .css_04_image_lumen div > a {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0; }
+  .css_04_image_lumen > figcaption {
+    color: #000000;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .css_04_image_lumen._caption-inside > figcaption, .css_04_image_lumen._caption-top > figcaption, .css_04_image_lumen._caption-top-left > figcaption, .css_04_image_lumen._caption-top-right > figcaption, .css_04_image_lumen._caption-bottom-left > figcaption, .css_04_image_lumen._caption-bottom-right > figcaption, .css_04_image_lumen .image._caption-inside > figcaption, .css_04_image_lumen .image._caption-top > figcaption, .css_04_image_lumen .image._caption-top-left > figcaption, .css_04_image_lumen .image._caption-top-right > figcaption, .css_04_image_lumen .image._caption-bottom-left > figcaption, .css_04_image_lumen .image._caption-bottom-right > figcaption, .css_04_image_lumen .imagem_inline._caption-inside > figcaption, .css_04_image_lumen .imagem_inline._caption-top > figcaption, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption {
+    position: absolute;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    color: #3f3e3e;
+    margin: 0;
+    /* before represents the placeholder text*/ }
+    .css_04_image_lumen._caption-inside > figcaption::before, .css_04_image_lumen._caption-top > figcaption::before, .css_04_image_lumen._caption-top-left > figcaption::before, .css_04_image_lumen._caption-top-right > figcaption::before, .css_04_image_lumen._caption-bottom-left > figcaption::before, .css_04_image_lumen._caption-bottom-right > figcaption::before, .css_04_image_lumen .image._caption-inside > figcaption::before, .css_04_image_lumen .image._caption-top > figcaption::before, .css_04_image_lumen .image._caption-top-left > figcaption::before, .css_04_image_lumen .image._caption-top-right > figcaption::before, .css_04_image_lumen .image._caption-bottom-left > figcaption::before, .css_04_image_lumen .image._caption-bottom-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-inside > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption::before {
+      color: #3f3e3e; }
+  .css_04_image_lumen._caption-inside > figcaption {
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .css_04_image_lumen._caption-none > figcaption {
+    display: none; }
+  .css_04_image_lumen._caption-top > figcaption {
+    right: 0;
+    top: 0;
+    left: 0; }
+  .css_04_image_lumen._caption-top-left > figcaption {
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 30%; }
+  .css_04_image_lumen._caption-top-right > figcaption {
+    right: 0;
+    top: 0;
+    width: 30%; }
+  .css_04_image_lumen._caption-bottom-left > figcaption {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%; }
+  .css_04_image_lumen._caption-bottom-right > figcaption {
+    right: 0;
+    bottom: 0;
+    width: 30%; }
+  .css_04_image_lumen .image .place-holder:hover {
+    top: 0;
+    left: 0; }
+  @media only screen and (min-width: 481px) {
+    .css_04_image_lumen {
+      /* class styles for the position properties of the image component */ }
+      .css_04_image_lumen._left {
+        float: left;
+        clear: left;
+        width: 46%;
+        margin-right: 15px;
+        margin-left: 0px;
+        z-index: 1; }
+      .css_04_image_lumen._right {
+        float: right;
+        clear: right;
+        margin-right: 0px;
+        width: 46%;
+        z-index: 1; } }
 
 .css_04_professor_comentario {
   display: block;
@@ -5116,6 +5344,8 @@ span[style="text-decoration: line-through;"] {
     margin: 0 auto !important; }
     .image._image_titulo figcaption {
       color: #000000;
+      padding-left: 68px;
+      padding-right: 68px;
       margin-top: 4px;
       margin-bottom: 2px; }
   .image .slider-subtitle {
@@ -5172,7 +5402,7 @@ span[style="text-decoration: line-through;"] {
     color: #000000;
     margin-top: 4px;
     margin-bottom: 2px; }
-  .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption {
+  .image .css_04_image_lumen._caption-inside > figcaption, .image .css_04_image_lumen._caption-top > figcaption, .image .css_04_image_lumen._caption-top-left > figcaption, .image .css_04_image_lumen._caption-top-right > figcaption, .image .css_04_image_lumen._caption-bottom-left > figcaption, .image .css_04_image_lumen._caption-bottom-right > figcaption, .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -5180,7 +5410,7 @@ span[style="text-decoration: line-through;"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .imagem_inline._caption-inside > figcaption::before, .image .imagem_inline._caption-top > figcaption::before, .image .imagem_inline._caption-top-left > figcaption::before, .image .imagem_inline._caption-top-right > figcaption::before, .image .imagem_inline._caption-bottom-left > figcaption::before, .image .imagem_inline._caption-bottom-right > figcaption::before {
+    .image .css_04_image_lumen._caption-inside > figcaption::before, .image .css_04_image_lumen._caption-top > figcaption::before, .image .css_04_image_lumen._caption-top-left > figcaption::before, .image .css_04_image_lumen._caption-top-right > figcaption::before, .image .css_04_image_lumen._caption-bottom-left > figcaption::before, .image .css_04_image_lumen._caption-bottom-right > figcaption::before, .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .imagem_inline._caption-inside > figcaption::before, .image .imagem_inline._caption-top > figcaption::before, .image .imagem_inline._caption-top-left > figcaption::before, .image .imagem_inline._caption-top-right > figcaption::before, .image .imagem_inline._caption-bottom-left > figcaption::before, .image .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .image._caption-inside > figcaption {
     right: 0;
@@ -10199,7 +10429,7 @@ input[type="checkbox"] {
     color: #000000;
     font-family: "Red Hat Display";
     font-weight: 300; }
-  .imagem_inline .image._caption-inside > figcaption, .imagem_inline .image._caption-top > figcaption, .imagem_inline .image._caption-top-left > figcaption, .imagem_inline .image._caption-top-right > figcaption, .imagem_inline .image._caption-bottom-left > figcaption, .imagem_inline .image._caption-bottom-right > figcaption, .imagem_inline._caption-inside > figcaption, .imagem_inline._caption-top > figcaption, .imagem_inline._caption-top-left > figcaption, .imagem_inline._caption-top-right > figcaption, .imagem_inline._caption-bottom-left > figcaption, .imagem_inline._caption-bottom-right > figcaption {
+  .imagem_inline .css_04_image_lumen._caption-inside > figcaption, .imagem_inline .css_04_image_lumen._caption-top > figcaption, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption, .imagem_inline .image._caption-inside > figcaption, .imagem_inline .image._caption-top > figcaption, .imagem_inline .image._caption-top-left > figcaption, .imagem_inline .image._caption-top-right > figcaption, .imagem_inline .image._caption-bottom-left > figcaption, .imagem_inline .image._caption-bottom-right > figcaption, .imagem_inline._caption-inside > figcaption, .imagem_inline._caption-top > figcaption, .imagem_inline._caption-top-left > figcaption, .imagem_inline._caption-top-right > figcaption, .imagem_inline._caption-bottom-left > figcaption, .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -10207,7 +10437,7 @@ input[type="checkbox"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .imagem_inline .image._caption-inside > figcaption::before, .imagem_inline .image._caption-top > figcaption::before, .imagem_inline .image._caption-top-left > figcaption::before, .imagem_inline .image._caption-top-right > figcaption::before, .imagem_inline .image._caption-bottom-left > figcaption::before, .imagem_inline .image._caption-bottom-right > figcaption::before, .imagem_inline._caption-inside > figcaption::before, .imagem_inline._caption-top > figcaption::before, .imagem_inline._caption-top-left > figcaption::before, .imagem_inline._caption-top-right > figcaption::before, .imagem_inline._caption-bottom-left > figcaption::before, .imagem_inline._caption-bottom-right > figcaption::before {
+    .imagem_inline .css_04_image_lumen._caption-inside > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption::before, .imagem_inline .image._caption-inside > figcaption::before, .imagem_inline .image._caption-top > figcaption::before, .imagem_inline .image._caption-top-left > figcaption::before, .imagem_inline .image._caption-top-right > figcaption::before, .imagem_inline .image._caption-bottom-left > figcaption::before, .imagem_inline .image._caption-bottom-right > figcaption::before, .imagem_inline._caption-inside > figcaption::before, .imagem_inline._caption-top > figcaption::before, .imagem_inline._caption-top-left > figcaption::before, .imagem_inline._caption-top-right > figcaption::before, .imagem_inline._caption-bottom-left > figcaption::before, .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .imagem_inline._caption-inside > figcaption {
     right: 0;
