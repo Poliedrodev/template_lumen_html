@@ -7,12 +7,21 @@
   flex-direction: column;
   width: 100%;
 
-  ._image{
+  ._image {
     width: 100%;
   }
 
   &._image2_titulo{
     margin: 0 auto !important;
+  }
+
+  &._fit_content {
+    width: fit-content;
+  }
+
+  &._fit_content_margin_auto {
+    width: fit-content;
+    margin: auto;
   }
 
   .slider-subtitle {

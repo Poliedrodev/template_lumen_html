@@ -574,7 +574,6 @@ span[style="text-decoration: line-through;"] {
   margin-top: 32px;
   margin-bottom: 32px;
   line-height: 44px;
-  padding: 0 47px;
   font-family: "Titillium Web";
   font-weight: 700;
   font-size: 20px;
@@ -590,6 +589,8 @@ span[style="text-decoration: line-through;"] {
     border: 3px solid #fff;
     left: 10px;
     top: 8px; }
+  .css_07_secao_no_enem_e_assim .title_no_enem_e_assim {
+    margin-left: 42px; }
   .css_07_secao_no_enem_e_assim.artes {
     background-color: #84A214; }
     .css_07_secao_no_enem_e_assim.artes:before {
@@ -643,7 +644,7 @@ span[style="text-decoration: line-through;"] {
   background-color: #F7F9D9;
   min-height: 100px;
   position: relative;
-  padding: 16px;
+  padding: 38px 16px 16px 16px;
   margin-top: 52px;
   margin-bottom: 32px;
   box-sizing: border-box; }
@@ -2834,6 +2835,10 @@ span[style="text-decoration: line-through;"] {
     color: #0F83A6; }
   .css_01_titulo1.producao_de_texto .icone {
     background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.filosofia .texto {
+    color: #536DA7; }
+  .css_01_titulo1.filosofia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
   .css_01_titulo1.matematica .texto {
     color: #1961AC; }
   .css_01_titulo1.matematica .icone {
@@ -3658,6 +3663,7 @@ span[style="text-decoration: line-through;"] {
     opacity: 1;
     height: 21px;
     width: 20px;
+    top: 4px;
     margin: 0 auto;
     position: relative;
     background: #f4f1f1;
@@ -3697,6 +3703,20 @@ span[style="text-decoration: line-through;"] {
   .css_03_2exercicio_container_edit_sem_numero .group_exercicio {
     margin: 0; }
     .css_03_2exercicio_container_edit_sem_numero .group_exercicio::first-child {
+      margin: 0; }
+
+.css_03_2exercicio_container_edit_sem_numero_sem_botao {
+  margin-top: 31px;
+  position: relative;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline; }
+  .css_03_2exercicio_container_edit_sem_numero_sem_botao .group_exercicio {
+    margin: 0; }
+    .css_03_2exercicio_container_edit_sem_numero_sem_botao .group_exercicio::first-child {
       margin: 0; }
 
 /* Image component style */
@@ -3751,7 +3771,7 @@ span[style="text-decoration: line-through;"] {
     color: #000000;
     margin-top: 4px;
     margin-bottom: 2px; }
-  .css_04_image_lumen._caption-inside > figcaption, .css_04_image_lumen._caption-top > figcaption, .css_04_image_lumen._caption-top-left > figcaption, .css_04_image_lumen._caption-top-right > figcaption, .css_04_image_lumen._caption-bottom-left > figcaption, .css_04_image_lumen._caption-bottom-right > figcaption, .css_04_image_lumen .image._caption-inside > figcaption, .css_04_image_lumen .image._caption-top > figcaption, .css_04_image_lumen .image._caption-top-left > figcaption, .css_04_image_lumen .image._caption-top-right > figcaption, .css_04_image_lumen .image._caption-bottom-left > figcaption, .css_04_image_lumen .image._caption-bottom-right > figcaption, .css_04_image_lumen .imagem_inline._caption-inside > figcaption, .css_04_image_lumen .imagem_inline._caption-top > figcaption, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption {
+  .css_04_image_lumen._caption-inside > figcaption, .css_04_image_lumen._caption-top > figcaption, .css_04_image_lumen._caption-top-left > figcaption, .css_04_image_lumen._caption-top-right > figcaption, .css_04_image_lumen._caption-bottom-left > figcaption, .css_04_image_lumen._caption-bottom-right > figcaption, .css_04_image_lumen .image._caption-inside > figcaption, .css_04_image_lumen .image._caption-top > figcaption, .css_04_image_lumen .image._caption-top-left > figcaption, .css_04_image_lumen .image._caption-top-right > figcaption, .css_04_image_lumen .image._caption-bottom-left > figcaption, .css_04_image_lumen .image._caption-bottom-right > figcaption, .css_04_image_lumen .image2._caption-inside > figcaption, .css_04_image_lumen .image2._caption-top > figcaption, .css_04_image_lumen .image2._caption-top-left > figcaption, .css_04_image_lumen .image2._caption-top-right > figcaption, .css_04_image_lumen .image2._caption-bottom-left > figcaption, .css_04_image_lumen .image2._caption-bottom-right > figcaption, .css_04_image_lumen .imagem_inline._caption-inside > figcaption, .css_04_image_lumen .imagem_inline._caption-top > figcaption, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -3759,7 +3779,7 @@ span[style="text-decoration: line-through;"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .css_04_image_lumen._caption-inside > figcaption::before, .css_04_image_lumen._caption-top > figcaption::before, .css_04_image_lumen._caption-top-left > figcaption::before, .css_04_image_lumen._caption-top-right > figcaption::before, .css_04_image_lumen._caption-bottom-left > figcaption::before, .css_04_image_lumen._caption-bottom-right > figcaption::before, .css_04_image_lumen .image._caption-inside > figcaption::before, .css_04_image_lumen .image._caption-top > figcaption::before, .css_04_image_lumen .image._caption-top-left > figcaption::before, .css_04_image_lumen .image._caption-top-right > figcaption::before, .css_04_image_lumen .image._caption-bottom-left > figcaption::before, .css_04_image_lumen .image._caption-bottom-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-inside > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption::before {
+    .css_04_image_lumen._caption-inside > figcaption::before, .css_04_image_lumen._caption-top > figcaption::before, .css_04_image_lumen._caption-top-left > figcaption::before, .css_04_image_lumen._caption-top-right > figcaption::before, .css_04_image_lumen._caption-bottom-left > figcaption::before, .css_04_image_lumen._caption-bottom-right > figcaption::before, .css_04_image_lumen .image._caption-inside > figcaption::before, .css_04_image_lumen .image._caption-top > figcaption::before, .css_04_image_lumen .image._caption-top-left > figcaption::before, .css_04_image_lumen .image._caption-top-right > figcaption::before, .css_04_image_lumen .image._caption-bottom-left > figcaption::before, .css_04_image_lumen .image._caption-bottom-right > figcaption::before, .css_04_image_lumen .image2._caption-inside > figcaption::before, .css_04_image_lumen .image2._caption-top > figcaption::before, .css_04_image_lumen .image2._caption-top-left > figcaption::before, .css_04_image_lumen .image2._caption-top-right > figcaption::before, .css_04_image_lumen .image2._caption-bottom-left > figcaption::before, .css_04_image_lumen .image2._caption-bottom-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-inside > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .css_04_image_lumen._caption-inside > figcaption {
     right: 0;
@@ -4338,7 +4358,6 @@ span[style="text-decoration: line-through;"] {
 .css_07_secao_superacao {
   height: 34px;
   width: 100%;
-  float: left;
   position: relative;
   margin-top: 32px;
   margin-bottom: 32px; }
@@ -5335,7 +5354,7 @@ span[style="text-decoration: line-through;"] {
     color: #000000;
     margin-top: 4px;
     margin-bottom: 2px; }
-  .image .css_04_image_lumen._caption-inside > figcaption, .image .css_04_image_lumen._caption-top > figcaption, .image .css_04_image_lumen._caption-top-left > figcaption, .image .css_04_image_lumen._caption-top-right > figcaption, .image .css_04_image_lumen._caption-bottom-left > figcaption, .image .css_04_image_lumen._caption-bottom-right > figcaption, .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption {
+  .image .css_04_image_lumen._caption-inside > figcaption, .image .css_04_image_lumen._caption-top > figcaption, .image .css_04_image_lumen._caption-top-left > figcaption, .image .css_04_image_lumen._caption-top-right > figcaption, .image .css_04_image_lumen._caption-bottom-left > figcaption, .image .css_04_image_lumen._caption-bottom-right > figcaption, .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .image2._caption-inside > figcaption, .image .image2._caption-top > figcaption, .image .image2._caption-top-left > figcaption, .image .image2._caption-top-right > figcaption, .image .image2._caption-bottom-left > figcaption, .image .image2._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -5343,7 +5362,7 @@ span[style="text-decoration: line-through;"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .image .css_04_image_lumen._caption-inside > figcaption::before, .image .css_04_image_lumen._caption-top > figcaption::before, .image .css_04_image_lumen._caption-top-left > figcaption::before, .image .css_04_image_lumen._caption-top-right > figcaption::before, .image .css_04_image_lumen._caption-bottom-left > figcaption::before, .image .css_04_image_lumen._caption-bottom-right > figcaption::before, .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .imagem_inline._caption-inside > figcaption::before, .image .imagem_inline._caption-top > figcaption::before, .image .imagem_inline._caption-top-left > figcaption::before, .image .imagem_inline._caption-top-right > figcaption::before, .image .imagem_inline._caption-bottom-left > figcaption::before, .image .imagem_inline._caption-bottom-right > figcaption::before {
+    .image .css_04_image_lumen._caption-inside > figcaption::before, .image .css_04_image_lumen._caption-top > figcaption::before, .image .css_04_image_lumen._caption-top-left > figcaption::before, .image .css_04_image_lumen._caption-top-right > figcaption::before, .image .css_04_image_lumen._caption-bottom-left > figcaption::before, .image .css_04_image_lumen._caption-bottom-right > figcaption::before, .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .image2._caption-inside > figcaption::before, .image .image2._caption-top > figcaption::before, .image .image2._caption-top-left > figcaption::before, .image .image2._caption-top-right > figcaption::before, .image .image2._caption-bottom-left > figcaption::before, .image .image2._caption-bottom-right > figcaption::before, .image .imagem_inline._caption-inside > figcaption::before, .image .imagem_inline._caption-top > figcaption::before, .image .imagem_inline._caption-top-left > figcaption::before, .image .imagem_inline._caption-top-right > figcaption::before, .image .imagem_inline._caption-bottom-left > figcaption::before, .image .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .image._caption-inside > figcaption {
     right: 0;
@@ -5433,6 +5452,8 @@ span[style="text-decoration: line-through;"] {
     font-family: "Red Hat Display";
     font-weight: 300;
     margin-bottom: 16px; }
+  .audio_interno .placeholder-box {
+    display: none; }
 
 .doc-section [doc-editable]:empty {
   background: transparent !important; }
@@ -5522,29 +5543,28 @@ span[style="text-decoration: line-through;"] {
     height: 280px !important;
     padding: 0 !important;
     background-size: cover; }
-  .video_interno .video_popup__content .content-video {
-    padding: 20px; }
-    .video_interno .video_popup__content .content-video__title {
-      color: #c9252c;
-      font-size: 16px;
-      font-weight: 700;
-      font-family: '$fontPrincipal';
-      text-transform: uppercase;
-      border: 1px solid #ccc;
-      margin-bottom: 10px; }
-    .video_interno .video_popup__content .content-video__text {
-      border: 1px solid #ccc;
-      color: #666;
-      font-size: 14px;
-      font-family: '$fontPrincipal';
-      font-weight: 300; }
-      .video_interno .video_popup__content .content-video__text span {
-        color: #666 !important; }
   .video_interno .video_popup__content #playerDefault,
   .video_interno .video_popup__content #playerYoutube {
     display: none; }
   .video_interno .video_popup__content #playerDefault {
     width: 100%; }
+  .video_interno .content-video {
+    padding: 20px; }
+    .video_interno .content-video__title {
+      color: black;
+      font-size: 18px;
+      font-weight: 700;
+      padding-left: 16px;
+      font-family: "Red Hat Display";
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .video_interno .content-video__text {
+      color: #666;
+      font-size: 14px;
+      font-family: "Red Hat Display";
+      font-weight: 300; }
+      .video_interno .content-video__text span {
+        color: #666 !important; }
 
 /* Video component style */
 .doc-section [doc-editable]:empty {
@@ -5557,7 +5577,7 @@ span[style="text-decoration: line-through;"] {
   margin: 0 16px 16px 16px;
   color: #666;
   font-size: 14px;
-  font-family: '$fontPrincipal';
+  font-family: "Red Hat Display";
   font-weight: 300; }
 
 /* Image component style */
@@ -5585,10 +5605,10 @@ span[style="text-decoration: line-through;"] {
       padding: 0;
       margin: 0;
       margin-bottom: 32px; }
-  .video_externo.__ready .content-video__title {
+  .video_externo.__ready .video_externo__title {
     border: 0;
     margin-left: 16px; }
-  .video_externo.__ready .content-video__text {
+  .video_externo.__ready .video_externo__text {
     border: 0;
     margin-left: 16px; }
   .video_externo.popup_actived {
@@ -5635,29 +5655,28 @@ span[style="text-decoration: line-through;"] {
     height: 280px !important;
     padding: 0 !important;
     background-size: cover; }
-  .video_externo .video_popup__content .content-video {
-    padding: 20px; }
-    .video_externo .video_popup__content .content-video__title {
-      color: #c9252c;
-      font-size: 16px;
-      font-weight: 700;
-      font-family: '$fontPrincipal';
-      text-transform: uppercase;
-      border: 1px solid #ccc;
-      margin-bottom: 10px; }
-    .video_externo .video_popup__content .content-video__text {
-      border: 1px solid #ccc;
-      color: #666;
-      font-size: 14px;
-      font-family: '$fontPrincipal';
-      font-weight: 300; }
-      .video_externo .video_popup__content .content-video__text span {
-        color: #666 !important; }
   .video_externo .video_popup__content #playerDefault,
   .video_externo .video_popup__content #playerYoutube {
     display: none; }
   .video_externo .video_popup__content #playerDefault {
     width: 100%; }
+  .video_externo .content-video {
+    padding: 20px; }
+    .video_externo .content-video__title {
+      color: black;
+      padding: 16px;
+      font-size: 18px;
+      font-weight: 700;
+      font-family: "Red Hat Display";
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .video_externo .content-video__text {
+      color: #666;
+      font-size: 14px;
+      font-family: "Red Hat Display";
+      font-weight: 300; }
+      .video_externo .content-video__text span {
+        color: #666 !important; }
 
 /* Embed component style */
 .embed {
@@ -10325,6 +10344,136 @@ input[type="checkbox"] {
     width: 100%; }
 
 /* Image component style */
+.image2 {
+  margin: 12px auto;
+  position: relative;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* class styles for the captions properties of the image component */ }
+  .image2 ._image {
+    width: 100%; }
+  .image2._image2_titulo {
+    margin: 0 auto !important; }
+  .image2._fit_content {
+    width: fit-content; }
+  .image2._fit_content_margin_auto {
+    width: fit-content;
+    margin: auto; }
+  .image2 .slider-subtitle {
+    position: relative;
+    margin-top: 8px; }
+  .image2 .slider-subtitle::before {
+    content: "";
+    height: 2px;
+    width: 26%;
+    position: absolute;
+    left: 0;
+    top: -4px; }
+  .image2.artes .slider-subtitle::before {
+    background-color: #bfd730; }
+  .image2.lingua_portuguesa .slider-subtitle::before {
+    background-color: #bfd730; }
+  .image2.lingua_inglesa .slider-subtitle::before {
+    background-color: #bfd730; }
+  .image2.matematica .slider-subtitle::before {
+    background-color: #F1CB40; }
+  .image2._left {
+    margin-left: 0px; }
+  .image2._right {
+    margin-right: 0px; }
+  .image2._100 img {
+    margin: auto; }
+  .image2._200 img {
+    width: 30%;
+    margin: auto; }
+  .image2.full-screen {
+    position: relative !important;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important; }
+    .image2.full-screen > div {
+      height: 100%; }
+  .image2._option1 > div {
+    border-radius: 25px; }
+  .image2 div {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center; }
+    .image2 div > a {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0; }
+  .image2 > figcaption {
+    color: #000000;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .image2 .css_04_image_lumen._caption-inside > figcaption, .image2 .css_04_image_lumen._caption-top > figcaption, .image2 .css_04_image_lumen._caption-top-left > figcaption, .image2 .css_04_image_lumen._caption-top-right > figcaption, .image2 .css_04_image_lumen._caption-bottom-left > figcaption, .image2 .css_04_image_lumen._caption-bottom-right > figcaption, .image2 .image._caption-inside > figcaption, .image2 .image._caption-top > figcaption, .image2 .image._caption-top-left > figcaption, .image2 .image._caption-top-right > figcaption, .image2 .image._caption-bottom-left > figcaption, .image2 .image._caption-bottom-right > figcaption, .image2._caption-inside > figcaption, .image2._caption-top > figcaption, .image2._caption-top-left > figcaption, .image2._caption-top-right > figcaption, .image2._caption-bottom-left > figcaption, .image2._caption-bottom-right > figcaption, .image2 .imagem_inline._caption-inside > figcaption, .image2 .imagem_inline._caption-top > figcaption, .image2 .imagem_inline._caption-top-left > figcaption, .image2 .imagem_inline._caption-top-right > figcaption, .image2 .imagem_inline._caption-bottom-left > figcaption, .image2 .imagem_inline._caption-bottom-right > figcaption {
+    position: absolute;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    color: #3f3e3e;
+    margin: 0;
+    /* before represents the placeholder text*/ }
+    .image2 .css_04_image_lumen._caption-inside > figcaption::before, .image2 .css_04_image_lumen._caption-top > figcaption::before, .image2 .css_04_image_lumen._caption-top-left > figcaption::before, .image2 .css_04_image_lumen._caption-top-right > figcaption::before, .image2 .css_04_image_lumen._caption-bottom-left > figcaption::before, .image2 .css_04_image_lumen._caption-bottom-right > figcaption::before, .image2 .image._caption-inside > figcaption::before, .image2 .image._caption-top > figcaption::before, .image2 .image._caption-top-left > figcaption::before, .image2 .image._caption-top-right > figcaption::before, .image2 .image._caption-bottom-left > figcaption::before, .image2 .image._caption-bottom-right > figcaption::before, .image2._caption-inside > figcaption::before, .image2._caption-top > figcaption::before, .image2._caption-top-left > figcaption::before, .image2._caption-top-right > figcaption::before, .image2._caption-bottom-left > figcaption::before, .image2._caption-bottom-right > figcaption::before, .image2 .imagem_inline._caption-inside > figcaption::before, .image2 .imagem_inline._caption-top > figcaption::before, .image2 .imagem_inline._caption-top-left > figcaption::before, .image2 .imagem_inline._caption-top-right > figcaption::before, .image2 .imagem_inline._caption-bottom-left > figcaption::before, .image2 .imagem_inline._caption-bottom-right > figcaption::before {
+      color: #3f3e3e; }
+  .image2._caption-inside > figcaption {
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .image2._caption-none > figcaption {
+    display: none; }
+  .image2._caption-top > figcaption {
+    right: 0;
+    top: 0;
+    left: 0; }
+  .image2._caption-top-left > figcaption {
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 30%; }
+  .image2._caption-top-right > figcaption {
+    right: 0;
+    top: 0;
+    width: 30%; }
+  .image2._caption-bottom-left > figcaption {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%; }
+  .image2._caption-bottom-right > figcaption {
+    right: 0;
+    bottom: 0;
+    width: 30%; }
+  .image2 .image .place-holder:hover {
+    top: 0;
+    left: 0; }
+  @media only screen and (min-width: 481px) {
+    .image2 {
+      /* class styles for the position properties of the image component */ }
+      .image2._left {
+        float: left;
+        clear: left;
+        width: 46%;
+        margin-right: 15px;
+        margin-left: 0px;
+        z-index: 1; }
+      .image2._right {
+        float: right;
+        clear: right;
+        margin-right: 0px;
+        width: 46%;
+        z-index: 1; } }
+
+/* Image component style */
 .imagem_inline {
   clear: both;
   margin: 20px 0px 20px 0px;
@@ -10362,7 +10511,7 @@ input[type="checkbox"] {
     color: #000000;
     font-family: "Red Hat Display";
     font-weight: 300; }
-  .imagem_inline .css_04_image_lumen._caption-inside > figcaption, .imagem_inline .css_04_image_lumen._caption-top > figcaption, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption, .imagem_inline .image._caption-inside > figcaption, .imagem_inline .image._caption-top > figcaption, .imagem_inline .image._caption-top-left > figcaption, .imagem_inline .image._caption-top-right > figcaption, .imagem_inline .image._caption-bottom-left > figcaption, .imagem_inline .image._caption-bottom-right > figcaption, .imagem_inline._caption-inside > figcaption, .imagem_inline._caption-top > figcaption, .imagem_inline._caption-top-left > figcaption, .imagem_inline._caption-top-right > figcaption, .imagem_inline._caption-bottom-left > figcaption, .imagem_inline._caption-bottom-right > figcaption {
+  .imagem_inline .css_04_image_lumen._caption-inside > figcaption, .imagem_inline .css_04_image_lumen._caption-top > figcaption, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption, .imagem_inline .image._caption-inside > figcaption, .imagem_inline .image._caption-top > figcaption, .imagem_inline .image._caption-top-left > figcaption, .imagem_inline .image._caption-top-right > figcaption, .imagem_inline .image._caption-bottom-left > figcaption, .imagem_inline .image._caption-bottom-right > figcaption, .imagem_inline .image2._caption-inside > figcaption, .imagem_inline .image2._caption-top > figcaption, .imagem_inline .image2._caption-top-left > figcaption, .imagem_inline .image2._caption-top-right > figcaption, .imagem_inline .image2._caption-bottom-left > figcaption, .imagem_inline .image2._caption-bottom-right > figcaption, .imagem_inline._caption-inside > figcaption, .imagem_inline._caption-top > figcaption, .imagem_inline._caption-top-left > figcaption, .imagem_inline._caption-top-right > figcaption, .imagem_inline._caption-bottom-left > figcaption, .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -10370,7 +10519,7 @@ input[type="checkbox"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .imagem_inline .css_04_image_lumen._caption-inside > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption::before, .imagem_inline .image._caption-inside > figcaption::before, .imagem_inline .image._caption-top > figcaption::before, .imagem_inline .image._caption-top-left > figcaption::before, .imagem_inline .image._caption-top-right > figcaption::before, .imagem_inline .image._caption-bottom-left > figcaption::before, .imagem_inline .image._caption-bottom-right > figcaption::before, .imagem_inline._caption-inside > figcaption::before, .imagem_inline._caption-top > figcaption::before, .imagem_inline._caption-top-left > figcaption::before, .imagem_inline._caption-top-right > figcaption::before, .imagem_inline._caption-bottom-left > figcaption::before, .imagem_inline._caption-bottom-right > figcaption::before {
+    .imagem_inline .css_04_image_lumen._caption-inside > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption::before, .imagem_inline .image._caption-inside > figcaption::before, .imagem_inline .image._caption-top > figcaption::before, .imagem_inline .image._caption-top-left > figcaption::before, .imagem_inline .image._caption-top-right > figcaption::before, .imagem_inline .image._caption-bottom-left > figcaption::before, .imagem_inline .image._caption-bottom-right > figcaption::before, .imagem_inline .image2._caption-inside > figcaption::before, .imagem_inline .image2._caption-top > figcaption::before, .imagem_inline .image2._caption-top-left > figcaption::before, .imagem_inline .image2._caption-top-right > figcaption::before, .imagem_inline .image2._caption-bottom-left > figcaption::before, .imagem_inline .image2._caption-bottom-right > figcaption::before, .imagem_inline._caption-inside > figcaption::before, .imagem_inline._caption-top > figcaption::before, .imagem_inline._caption-top-left > figcaption::before, .imagem_inline._caption-top-right > figcaption::before, .imagem_inline._caption-bottom-left > figcaption::before, .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .imagem_inline._caption-inside > figcaption {
     right: 0;

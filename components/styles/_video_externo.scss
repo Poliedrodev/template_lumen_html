@@ -11,7 +11,7 @@
     margin: 0 16px 16px 16px;
     color: #666;
     font-size: 14px;
-    font-family: '$fontPrincipal';
+    font-family: $fontPrincipal;
     font-weight: 300;
   }
   
@@ -55,7 +55,7 @@
   
     &.__ready {
   
-      .content-video {
+      .video_externo {
   
         &__title {
           border: 0;
@@ -66,7 +66,7 @@
           border: 0;
           margin-left: 16px;
         }
-  
+
       }
     }
   
@@ -139,31 +139,7 @@
         background-size: cover;
       }
   
-      .content-video {
-        padding: 20px;
-  
-        &__title {
-          color: $por_cor1;
-          font-size: 16px;
-          font-weight: 700;
-          font-family: '$fontPrincipal';
-          text-transform: uppercase;
-          border: 1px solid #ccc;
-          margin-bottom: 10px;
-        }
-  
-        &__text {
-          border: 1px solid #ccc;
-          color: #666;
-          font-size: 14px;
-          font-family: '$fontPrincipal';
-          font-weight: 300;
-  
-          span {
-            color: #666 !important;
-          }
-        }
-      }
+      
   
       #playerDefault,
       #playerYoutube {
@@ -174,4 +150,32 @@
         width: 100%;
       }
     }
+    .content-video {
+      padding: 20px;
+
+      &__title {
+        color: black;
+        padding: 16px;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: $fontPrincipal;
+        text-transform: uppercase;
+      
+        margin-bottom: 10px;
+      }
+
+      &__text {
+      
+        color: #666;
+        font-size: 14px;
+        font-family: $fontPrincipal;
+        font-weight: 300;
+
+        span {
+          color: #666 !important;
+        }
+      }
+    }
   }
+
+  

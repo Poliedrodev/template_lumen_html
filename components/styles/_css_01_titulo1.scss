@@ -134,6 +134,15 @@
     }
 
   }
+  &.filosofia {
+    .texto {
+      color: $fil_cor1;
+    }
+
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+  }
 
 
   &.matematica {
