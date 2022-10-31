@@ -3,7 +3,7 @@
     /* Características do componente */
     display: block;
     font-family: $fonteNova;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 26px;
     color: $preto;
     margin-top: 40px;
@@ -28,7 +28,9 @@
         color: $fis_cor1;
     }
 
-
+    &.filosofia {
+        color: #536DA7;
+    }
 
     &.geografia {
         color: $geo_cor1;

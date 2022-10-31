@@ -33,7 +33,7 @@
         .icon_boxe_em_arte {
             width: 2rem;
             height: 2rem;
-            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_07_MT.svg');
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_07_CT.svg');
             background-size: contain !important;
             background-repeat: no-repeat;
             background-position: center;
@@ -159,7 +159,7 @@
         .icon_boxe_em_arte {
             width: 2rem;
             height: 2rem;
-            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_07_CT.svg');
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_07_MT.svg');
             background-size: contain !important;
             background-repeat: no-repeat;
             background-position: center;
@@ -195,7 +195,7 @@
         .icon_boxe_em_arte {
             width: 2rem;
             height: 2rem;
-            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_07_MT.svg');
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_07_CT.svg');
             background-size: contain !important;
             background-repeat: no-repeat;
             background-position: center;
@@ -283,6 +283,7 @@ input[type="checkbox"] {
 }
 
 .collapsible-title{
-  font-family: $fonteSerifa !important;
+  font-family: $fonteNova !important;
+  font-size: 20px;
   margin-top: 6px !important;
 }
