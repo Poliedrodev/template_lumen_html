@@ -1,0 +1,174 @@
+.css_03_exercicio_container_edit_consumivel {
+  margin-top: 31px;
+
+  position: relative;
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 8px;
+
+  font-family: $fontPrincipal;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+  .content_number {
+    width: 34px;
+
+    .background_number {
+      width: 34px;
+      height: 24px;
+      background-color: $cinza;
+      color: $branco;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+
+      .number_exercicio {
+        font-family: $fontPrincipal;
+        font-weight: 700;
+        font-variant: tabular-nums;
+        font-size: $fontSizeIndiceQuestion;
+      }
+    }
+  }
+
+  .group_exercicio {
+    margin: 0;
+
+    &::first-child {
+      margin: 0;
+    }
+  }
+
+  .btn2 {
+    background-image: url(img/save.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: -4px;
+    display: block;
+    margin-top: 6px;
+    &:active {
+      background-image: url(img/save_ok.png)!important;
+    }
+  }
+
+  .btn_alin2 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    width: 100%;
+    grid-column: 2;
+  }
+
+  .btn_salvar2 {
+    color: lightgray;
+    font-family: $fontPrincipal;
+
+  }
+
+  &.artes {
+    .background_number {
+      background-color: $art_cor1;
+    }
+  }
+
+  &.biologia {
+    .background_number {
+      background-color: $bio_cor1;
+    }
+  }
+
+  &.quimica {
+    .background_number {
+      background-color: $qui_cor1;
+    }
+  }
+
+&.fisica {
+  .background_number {
+    background-color: $fis_cor1;
+  }
+}
+
+&.geografia {
+  .background_number {
+    background-color: $geo_cor1;
+  }
+}
+
+&.historia {
+  .background_number {
+    background-color: $his_cor1;
+  }
+}
+
+&.sociologia {
+  .background_number {
+    background-color: $soc_cor1;
+  }
+}
+
+&.filosofia {
+  .background_number {
+    background-color: $fil_cor1;
+  }
+}
+
+&.lingua_inglesa {
+  .background_number {
+    background-color: $ing_cor1;
+  }
+}
+
+&.lingua_portuguesa {
+  .background_number {
+    background-color: $por_cor1;
+  }
+}
+
+&.producao_de_texto {
+  .background_number {
+    background-color: $ptx_cor1;
+  }
+}
+
+&.matematica {
+  .background_number {
+    background-color: $mat_cor1;
+  }
+}
+
+&.consolidando_saberes_mat {
+  .background_number {
+    background-color: $seg_mat_cor2;
+  }
+}
+
+&.consolidando_saberes_lin {
+  .background_number {
+    background-color: $seg_lin_cor2;
+  }
+}
+
+&.consolidando_saberes_cnt {
+  .background_number {
+    background-color: $seg_nat_cor2;
+  }
+}
+
+&.consolidando_saberes_hum {
+  .background_number {
+    background-color: $seg_hum_cor2;
+  }
+}
+
+}

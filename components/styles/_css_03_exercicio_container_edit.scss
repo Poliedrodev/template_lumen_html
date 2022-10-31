@@ -44,37 +44,6 @@
     }
   }
 
-  .btn2 {
-    background-image: url(img/save.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    border: 0px;
-    height: 30px;
-    width: 30px;
-    float: right;
-    margin-right: -4px;
-    display: block;
-    margin-top: 6px;
-    &:active {
-      background-image: url(img/save_ok.png)!important;
-    }
-  }
-
-  .btn_alin2 {
-    justify-content: flex-end;
-    align-items: flex-end;
-    display: flex;
-    width: 100%;
-    grid-column: 2;
-  }
-
-  .btn_salvar2 {
-    color: lightgray;
-    font-family: $fontPrincipal;
-
-  }
-
   &.artes {
     .background_number {
       background-color: $art_cor1;

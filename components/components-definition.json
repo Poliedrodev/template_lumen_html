@@ -98,6 +98,7 @@
         "line-height"
       ]
     },
+
     {
       "name": "css_07_secao_texto_e_contexto",
       "icon": "icons/components/container.svg",
@@ -111,6 +112,21 @@
         "line-height"
       ]
     },
+
+    {
+      "name": "css_07_secao_texto_em_foco",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Texto em Foco",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
     {
       "name": "css_07_secao_arte_em_leitura",
       "icon": "icons/components/container.svg",
@@ -1358,6 +1374,7 @@
         "line-height"
       ]
     },
+
     {
       "name": "css_03_exercicio_alternativa_edit",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
@@ -1386,6 +1403,36 @@
         }
       }
     },
+
+    {
+      "name": "css_03_exercicio_alternativa_questao_resolvida_edit",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Editável Alternativa Questão Resolvida",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_03_exercicio_alternativa_questao_resolvida_item_edit": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Alternativa Editável",
+              "name": "Alternativa Editável",
+              "components": [
+                "css_03_exercicio_alternativa_questao_resolvida_item_edit"
+              ]
+            }
+          ]
+        }
+      }
+    },
+
     {
       "name": "css_03_exercicio_alternativa_item_edit",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
@@ -1403,6 +1450,25 @@
         }
       }
     },
+
+    {
+      "name": "css_03_exercicio_alternativa_questao_resolvida_item_edit",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Alternativa Editável",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "alternativa_text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+
     {
       "name": "css_03_exercicio_alternativa_item_texto",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
@@ -3566,6 +3632,19 @@
         "style_lumen_mais"
       ]
     },
+
+    {
+      "name": "css_02_texto_glossario_drop",
+      "icon": "icons/components/icon_06_boxe_item.svg",
+      "label": "Container Glossário",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
     {
       "name": "css_06_boxe_em_arte",
       "icon": "icons/components/icon_06_boxe_item.svg",
@@ -3577,6 +3656,7 @@
         "line-height"
       ]
     },
+
     {
       "name": "css_06_boxe_em_biologia",
       "icon": "icons/components/icon_06_boxe_item.svg",
@@ -3764,6 +3844,7 @@
         "line-height"
       ]
     },
+
     {
       "name": "image2",
       "icon": "icons/components/image.svg",
@@ -3795,6 +3876,21 @@
         }
       }
     },
+
+    {
+      "name": "imagem_titulo",
+      "icon": "icons/components/image.svg",
+      "label": "Mapa",
+      "properties": [
+        "position",
+        "style",
+        "style_image",
+        "inside-caption",
+        "width",
+        "style_image_fit_content"
+      ]
+    },
+
     {
       "name": "image_inline",
       "icon": "icons/components/image.svg",
@@ -4594,7 +4690,7 @@
         "css_02_texto_geral1",
         "css_02_texto_geral2",
         "css_02_texto_geral3",
-        "css_02_texto_glossario_titulo",
+        "css_02_texto_glossario_drop",
         "css_02_texto_glossario",
         "css_02_texto_item",
         "css_02_texto_manuscrito",
@@ -4610,10 +4706,10 @@
         "css_03_2exercicio_input_VF_item",
         "css_03_exercicio_container_edit",
         "css_03_2exercicio_container_edit_sem_numero_sem_botao",
-        "css_03_2exercicio_container_edit_sem_numero",
         "css_03_exercicio_enunciado",
         "css_03_exercicio_continuacao",
         "css_03_exercicio_alternativa_edit",
+        "css_03_exercicio_alternativa_questao_resolvida_edit",
         "css_03_exercicio_alternativa",
         "css_03_exercicio_alternativa_assinalar",
         "css_03_exercicio_bullet",
@@ -4662,8 +4758,7 @@
         "css_05_legenda",
         "css_05_linha_exercicio",
         "css_05_mapa_titulo",
-        "css_05_nota_rodape",
-        "container_mapa"
+        "css_05_nota_rodape"
       ]
     },
     {
@@ -4716,6 +4811,7 @@
         "css_07_secao_por_dentro_da_arte",
         "css_07_secao_superacao",
         "css_07_secao_texto_e_contexto",
+        "css_07_secao_texto_em_foco",
         "css_07_secao_questao_resolvida",
         "css_07_secao_exercicio_alternativa",
         "css_07_secao_exercicio_bullet",
@@ -4811,6 +4907,7 @@
       "name": "media",
       "components": [
         "image2",
+        "imagem_titulo",
         "embed",
         "product",
         "social-media",
@@ -6194,6 +6291,7 @@
     "image": {
       "image_inline": "auto"
     },
+
     "slideshow_2_images": {
       "slideshow_2_B_images": {
         "type": "from-container",

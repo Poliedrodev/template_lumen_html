@@ -662,6 +662,32 @@ span[style="text-decoration: line-through;"] {
     font-family: "Titillium Web";
     font-weight: 700; }
 
+.css_07_secao_texto_em_foco {
+  background-color: #F7F9D9;
+  min-height: 100px;
+  position: relative;
+  padding: 38px 16px 16px 16px;
+  margin-top: 52px;
+  margin-bottom: 32px;
+  box-sizing: border-box; }
+  .css_07_secao_texto_em_foco .tag {
+    width: auto;
+    height: 44px;
+    background-color: #C51A1B;
+    position: absolute;
+    left: 0%;
+    top: -22px;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 42px;
+    font-family: "Titillium Web";
+    font-weight: 700; }
+  .css_07_secao_texto_em_foco.matematica {
+    background-color: #FAEDBC; }
+    .css_07_secao_texto_em_foco.matematica .tag {
+      background-color: #1961AC; }
+
 .css_07_secao_arte_em_leitura {
   background-color: #F7F9D9;
   min-height: 100px;
@@ -3057,18 +3083,7 @@ span[style="text-decoration: line-through;"] {
   font-size: 14px;
   line-height: 1.5em;
   color: #000000;
-  display: block;
-  margin-top: 24px;
-  padding: 8px 16px;
-  border: solid 2px #000000; }
-  .css_02_texto_glossario.artes {
-    border: solid 2px #64428C !important; }
-  .css_02_texto_glossario.lingua_inglesa {
-    border: solid 2px #069891 !important; }
-  .css_02_texto_glossario.lingua_portuguesa {
-    border: solid 2px #c9252c !important; }
-  .css_02_texto_glossario.matematica {
-    border: solid 2px #F1CB40 !important; }
+  display: block; }
 
 .css_02_texto_item {
   display: block;
@@ -3232,29 +3247,6 @@ span[style="text-decoration: line-through;"] {
     margin: 0; }
     .css_03_exercicio_container_edit .group_exercicio::first-child {
       margin: 0; }
-  .css_03_exercicio_container_edit .btn2 {
-    background-image: url(img/save.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    border: 0px;
-    height: 30px;
-    width: 30px;
-    float: right;
-    margin-right: -4px;
-    display: block;
-    margin-top: 6px; }
-    .css_03_exercicio_container_edit .btn2:active {
-      background-image: url(img/save_ok.png) !important; }
-  .css_03_exercicio_container_edit .btn_alin2 {
-    justify-content: flex-end;
-    align-items: flex-end;
-    display: flex;
-    width: 100%;
-    grid-column: 2; }
-  .css_03_exercicio_container_edit .btn_salvar2 {
-    color: lightgray;
-    font-family: "Red Hat Display"; }
   .css_03_exercicio_container_edit.artes .background_number {
     background-color: #64428C; }
   .css_03_exercicio_container_edit.biologia .background_number {
@@ -3396,6 +3388,15 @@ span[style="text-decoration: line-through;"] {
   font-size: 18px;
   padding-inline-start: 41px; }
 
+.css_03_exercicio_alternativa_questao_resolvida_edit {
+  margin-top: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  color: #8e8e8e;
+  line-height: 1.5em;
+  font-size: 18px;
+  padding-inline-start: 41px; }
+
 .css_03_exercicio_alternativa_item_edit {
   margin-top: 16px;
   display: grid;
@@ -3415,6 +3416,29 @@ span[style="text-decoration: line-through;"] {
     font-family: "Red Hat Display";
     font-size: 1.125rem;
     font-weight: 600;
+    position: absolute;
+    left: -32px; }
+
+.css_03_exercicio_alternativa_questao_resolvida_item_edit {
+  margin-top: 16px;
+  display: grid;
+  gap: 8px;
+  font-family: "Red Hat Display";
+  font-weight: 300;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline;
+  list-style: none;
+  position: relative; }
+  .css_03_exercicio_alternativa_questao_resolvida_item_edit .container_inside_alternativa :first-child {
+    margin-top: 0 !important; }
+  .css_03_exercicio_alternativa_questao_resolvida_item_edit .number_alternativa_questao_resolvida_edit {
+    width: 32px;
+    font-family: "Red Hat Display";
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #8e8e8e;
     position: absolute;
     left: -32px; }
 
@@ -3773,7 +3797,7 @@ span[style="text-decoration: line-through;"] {
     color: #000000;
     margin-top: 4px;
     margin-bottom: 2px; }
-  .css_04_image_lumen._caption-inside > figcaption, .css_04_image_lumen._caption-top > figcaption, .css_04_image_lumen._caption-top-left > figcaption, .css_04_image_lumen._caption-top-right > figcaption, .css_04_image_lumen._caption-bottom-left > figcaption, .css_04_image_lumen._caption-bottom-right > figcaption, .css_04_image_lumen .image._caption-inside > figcaption, .css_04_image_lumen .image._caption-top > figcaption, .css_04_image_lumen .image._caption-top-left > figcaption, .css_04_image_lumen .image._caption-top-right > figcaption, .css_04_image_lumen .image._caption-bottom-left > figcaption, .css_04_image_lumen .image._caption-bottom-right > figcaption, .css_04_image_lumen .image2._caption-inside > figcaption, .css_04_image_lumen .image2._caption-top > figcaption, .css_04_image_lumen .image2._caption-top-left > figcaption, .css_04_image_lumen .image2._caption-top-right > figcaption, .css_04_image_lumen .image2._caption-bottom-left > figcaption, .css_04_image_lumen .image2._caption-bottom-right > figcaption, .css_04_image_lumen .imagem_inline._caption-inside > figcaption, .css_04_image_lumen .imagem_inline._caption-top > figcaption, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption {
+  .css_04_image_lumen._caption-inside > figcaption, .css_04_image_lumen._caption-top > figcaption, .css_04_image_lumen._caption-top-left > figcaption, .css_04_image_lumen._caption-top-right > figcaption, .css_04_image_lumen._caption-bottom-left > figcaption, .css_04_image_lumen._caption-bottom-right > figcaption, .css_04_image_lumen .image._caption-inside > figcaption, .css_04_image_lumen .image._caption-top > figcaption, .css_04_image_lumen .image._caption-top-left > figcaption, .css_04_image_lumen .image._caption-top-right > figcaption, .css_04_image_lumen .image._caption-bottom-left > figcaption, .css_04_image_lumen .image._caption-bottom-right > figcaption, .css_04_image_lumen .image2._caption-inside > figcaption, .css_04_image_lumen .image2._caption-top > figcaption, .css_04_image_lumen .image2._caption-top-left > figcaption, .css_04_image_lumen .image2._caption-top-right > figcaption, .css_04_image_lumen .image2._caption-bottom-left > figcaption, .css_04_image_lumen .image2._caption-bottom-right > figcaption, .css_04_image_lumen .imagem_titulo._caption-inside > figcaption, .css_04_image_lumen .imagem_titulo._caption-top > figcaption, .css_04_image_lumen .imagem_titulo._caption-top-left > figcaption, .css_04_image_lumen .imagem_titulo._caption-top-right > figcaption, .css_04_image_lumen .imagem_titulo._caption-bottom-left > figcaption, .css_04_image_lumen .imagem_titulo._caption-bottom-right > figcaption, .css_04_image_lumen .imagem_inline._caption-inside > figcaption, .css_04_image_lumen .imagem_inline._caption-top > figcaption, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -3781,7 +3805,7 @@ span[style="text-decoration: line-through;"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .css_04_image_lumen._caption-inside > figcaption::before, .css_04_image_lumen._caption-top > figcaption::before, .css_04_image_lumen._caption-top-left > figcaption::before, .css_04_image_lumen._caption-top-right > figcaption::before, .css_04_image_lumen._caption-bottom-left > figcaption::before, .css_04_image_lumen._caption-bottom-right > figcaption::before, .css_04_image_lumen .image._caption-inside > figcaption::before, .css_04_image_lumen .image._caption-top > figcaption::before, .css_04_image_lumen .image._caption-top-left > figcaption::before, .css_04_image_lumen .image._caption-top-right > figcaption::before, .css_04_image_lumen .image._caption-bottom-left > figcaption::before, .css_04_image_lumen .image._caption-bottom-right > figcaption::before, .css_04_image_lumen .image2._caption-inside > figcaption::before, .css_04_image_lumen .image2._caption-top > figcaption::before, .css_04_image_lumen .image2._caption-top-left > figcaption::before, .css_04_image_lumen .image2._caption-top-right > figcaption::before, .css_04_image_lumen .image2._caption-bottom-left > figcaption::before, .css_04_image_lumen .image2._caption-bottom-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-inside > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption::before {
+    .css_04_image_lumen._caption-inside > figcaption::before, .css_04_image_lumen._caption-top > figcaption::before, .css_04_image_lumen._caption-top-left > figcaption::before, .css_04_image_lumen._caption-top-right > figcaption::before, .css_04_image_lumen._caption-bottom-left > figcaption::before, .css_04_image_lumen._caption-bottom-right > figcaption::before, .css_04_image_lumen .image._caption-inside > figcaption::before, .css_04_image_lumen .image._caption-top > figcaption::before, .css_04_image_lumen .image._caption-top-left > figcaption::before, .css_04_image_lumen .image._caption-top-right > figcaption::before, .css_04_image_lumen .image._caption-bottom-left > figcaption::before, .css_04_image_lumen .image._caption-bottom-right > figcaption::before, .css_04_image_lumen .image2._caption-inside > figcaption::before, .css_04_image_lumen .image2._caption-top > figcaption::before, .css_04_image_lumen .image2._caption-top-left > figcaption::before, .css_04_image_lumen .image2._caption-top-right > figcaption::before, .css_04_image_lumen .image2._caption-bottom-left > figcaption::before, .css_04_image_lumen .image2._caption-bottom-right > figcaption::before, .css_04_image_lumen .imagem_titulo._caption-inside > figcaption::before, .css_04_image_lumen .imagem_titulo._caption-top > figcaption::before, .css_04_image_lumen .imagem_titulo._caption-top-left > figcaption::before, .css_04_image_lumen .imagem_titulo._caption-top-right > figcaption::before, .css_04_image_lumen .imagem_titulo._caption-bottom-left > figcaption::before, .css_04_image_lumen .imagem_titulo._caption-bottom-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-inside > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-top-right > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-left > figcaption::before, .css_04_image_lumen .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .css_04_image_lumen._caption-inside > figcaption {
     right: 0;
@@ -5356,7 +5380,7 @@ span[style="text-decoration: line-through;"] {
     color: #000000;
     margin-top: 4px;
     margin-bottom: 2px; }
-  .image .css_04_image_lumen._caption-inside > figcaption, .image .css_04_image_lumen._caption-top > figcaption, .image .css_04_image_lumen._caption-top-left > figcaption, .image .css_04_image_lumen._caption-top-right > figcaption, .image .css_04_image_lumen._caption-bottom-left > figcaption, .image .css_04_image_lumen._caption-bottom-right > figcaption, .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .image2._caption-inside > figcaption, .image .image2._caption-top > figcaption, .image .image2._caption-top-left > figcaption, .image .image2._caption-top-right > figcaption, .image .image2._caption-bottom-left > figcaption, .image .image2._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption {
+  .image .css_04_image_lumen._caption-inside > figcaption, .image .css_04_image_lumen._caption-top > figcaption, .image .css_04_image_lumen._caption-top-left > figcaption, .image .css_04_image_lumen._caption-top-right > figcaption, .image .css_04_image_lumen._caption-bottom-left > figcaption, .image .css_04_image_lumen._caption-bottom-right > figcaption, .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .image2._caption-inside > figcaption, .image .image2._caption-top > figcaption, .image .image2._caption-top-left > figcaption, .image .image2._caption-top-right > figcaption, .image .image2._caption-bottom-left > figcaption, .image .image2._caption-bottom-right > figcaption, .image .imagem_titulo._caption-inside > figcaption, .image .imagem_titulo._caption-top > figcaption, .image .imagem_titulo._caption-top-left > figcaption, .image .imagem_titulo._caption-top-right > figcaption, .image .imagem_titulo._caption-bottom-left > figcaption, .image .imagem_titulo._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -5364,7 +5388,7 @@ span[style="text-decoration: line-through;"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .image .css_04_image_lumen._caption-inside > figcaption::before, .image .css_04_image_lumen._caption-top > figcaption::before, .image .css_04_image_lumen._caption-top-left > figcaption::before, .image .css_04_image_lumen._caption-top-right > figcaption::before, .image .css_04_image_lumen._caption-bottom-left > figcaption::before, .image .css_04_image_lumen._caption-bottom-right > figcaption::before, .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .image2._caption-inside > figcaption::before, .image .image2._caption-top > figcaption::before, .image .image2._caption-top-left > figcaption::before, .image .image2._caption-top-right > figcaption::before, .image .image2._caption-bottom-left > figcaption::before, .image .image2._caption-bottom-right > figcaption::before, .image .imagem_inline._caption-inside > figcaption::before, .image .imagem_inline._caption-top > figcaption::before, .image .imagem_inline._caption-top-left > figcaption::before, .image .imagem_inline._caption-top-right > figcaption::before, .image .imagem_inline._caption-bottom-left > figcaption::before, .image .imagem_inline._caption-bottom-right > figcaption::before {
+    .image .css_04_image_lumen._caption-inside > figcaption::before, .image .css_04_image_lumen._caption-top > figcaption::before, .image .css_04_image_lumen._caption-top-left > figcaption::before, .image .css_04_image_lumen._caption-top-right > figcaption::before, .image .css_04_image_lumen._caption-bottom-left > figcaption::before, .image .css_04_image_lumen._caption-bottom-right > figcaption::before, .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .image2._caption-inside > figcaption::before, .image .image2._caption-top > figcaption::before, .image .image2._caption-top-left > figcaption::before, .image .image2._caption-top-right > figcaption::before, .image .image2._caption-bottom-left > figcaption::before, .image .image2._caption-bottom-right > figcaption::before, .image .imagem_titulo._caption-inside > figcaption::before, .image .imagem_titulo._caption-top > figcaption::before, .image .imagem_titulo._caption-top-left > figcaption::before, .image .imagem_titulo._caption-top-right > figcaption::before, .image .imagem_titulo._caption-bottom-left > figcaption::before, .image .imagem_titulo._caption-bottom-right > figcaption::before, .image .imagem_inline._caption-inside > figcaption::before, .image .imagem_inline._caption-top > figcaption::before, .image .imagem_inline._caption-top-left > figcaption::before, .image .imagem_inline._caption-top-right > figcaption::before, .image .imagem_inline._caption-bottom-left > figcaption::before, .image .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .image._caption-inside > figcaption {
     right: 0;
@@ -5410,6 +5434,7 @@ span[style="text-decoration: line-through;"] {
       .image._right {
         float: right;
         clear: right;
+        margin-left: 15px;
         margin-right: 0px;
         width: 46%;
         z-index: 1; } }
@@ -7466,6 +7491,91 @@ a {
 .alinhamento {
   display: flex;
   align-items: center; }
+
+.css_02_texto_glossario_drop {
+  margin-top: 32px; }
+  .css_02_texto_glossario_drop .collapsible-title {
+    margin: 0;
+    color: #000000; }
+  .css_02_texto_glossario_drop.artes {
+    background: linear-gradient(180deg, #dce4c2 25%, white 100%); }
+  .css_02_texto_glossario_drop.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_02_texto_glossario_drop.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+  .css_02_texto_glossario_drop.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_02_texto_glossario_drop.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+  .css_02_texto_glossario_drop.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+  .css_02_texto_glossario_drop.lingua_inglesa {
+    background: linear-gradient(180deg, #dce4c2 25%, white 100%); }
+  .css_02_texto_glossario_drop.lingua_portuguesa {
+    background: linear-gradient(180deg, #dce4c2 25%, white 100%); }
+  .css_02_texto_glossario_drop.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%) !important; }
+  .css_02_texto_glossario_drop.producao_de_texto {
+    background: linear-gradient(180deg, #dce4c2 25%, white 100%); }
+  .css_02_texto_glossario_drop.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_02_texto_glossario_drop.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+
+.css_02_texto_glossario_drop .text-credit {
+  padding: 0 !important;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: left; }
+
+input[type="checkbox"] {
+  display: none; }
+
+.lbl-toggle-glossario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease-out; }
+
+.toggle:checked + .lbl-toggle-glossario + .collapsible-content-glossario {
+  max-height: 90rem; }
+
+.toggle:checked + .lbl-toggle-glossario .ion-md-add {
+  display: none; }
+
+.toggle:checked + .lbl-toggle-glossario .ion-md-remove {
+  display: block; }
+
+.ion-md-remove {
+  display: none; }
+
+.toggle:checked + .lbl-toggle-glossario {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.collapsible-content-glossario .content-inner {
+  padding: 0 1rem; }
+
+.collapsible-content-glossario {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.25s ease-in-out; }
+
+.flex-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; }
+
+.collapsible-title {
+  font-family: "Titillium Web" !important;
+  font-size: 20px;
+  margin-top: 6px !important; }
 
 .css_06_boxe_em_arte {
   margin-top: 32px; }
@@ -10418,7 +10528,7 @@ input[type="checkbox"] {
     color: #000000;
     margin-top: 4px;
     margin-bottom: 2px; }
-  .image2 .css_04_image_lumen._caption-inside > figcaption, .image2 .css_04_image_lumen._caption-top > figcaption, .image2 .css_04_image_lumen._caption-top-left > figcaption, .image2 .css_04_image_lumen._caption-top-right > figcaption, .image2 .css_04_image_lumen._caption-bottom-left > figcaption, .image2 .css_04_image_lumen._caption-bottom-right > figcaption, .image2 .image._caption-inside > figcaption, .image2 .image._caption-top > figcaption, .image2 .image._caption-top-left > figcaption, .image2 .image._caption-top-right > figcaption, .image2 .image._caption-bottom-left > figcaption, .image2 .image._caption-bottom-right > figcaption, .image2._caption-inside > figcaption, .image2._caption-top > figcaption, .image2._caption-top-left > figcaption, .image2._caption-top-right > figcaption, .image2._caption-bottom-left > figcaption, .image2._caption-bottom-right > figcaption, .image2 .imagem_inline._caption-inside > figcaption, .image2 .imagem_inline._caption-top > figcaption, .image2 .imagem_inline._caption-top-left > figcaption, .image2 .imagem_inline._caption-top-right > figcaption, .image2 .imagem_inline._caption-bottom-left > figcaption, .image2 .imagem_inline._caption-bottom-right > figcaption {
+  .image2 .css_04_image_lumen._caption-inside > figcaption, .image2 .css_04_image_lumen._caption-top > figcaption, .image2 .css_04_image_lumen._caption-top-left > figcaption, .image2 .css_04_image_lumen._caption-top-right > figcaption, .image2 .css_04_image_lumen._caption-bottom-left > figcaption, .image2 .css_04_image_lumen._caption-bottom-right > figcaption, .image2 .image._caption-inside > figcaption, .image2 .image._caption-top > figcaption, .image2 .image._caption-top-left > figcaption, .image2 .image._caption-top-right > figcaption, .image2 .image._caption-bottom-left > figcaption, .image2 .image._caption-bottom-right > figcaption, .image2._caption-inside > figcaption, .image2._caption-top > figcaption, .image2._caption-top-left > figcaption, .image2._caption-top-right > figcaption, .image2._caption-bottom-left > figcaption, .image2._caption-bottom-right > figcaption, .image2 .imagem_titulo._caption-inside > figcaption, .image2 .imagem_titulo._caption-top > figcaption, .image2 .imagem_titulo._caption-top-left > figcaption, .image2 .imagem_titulo._caption-top-right > figcaption, .image2 .imagem_titulo._caption-bottom-left > figcaption, .image2 .imagem_titulo._caption-bottom-right > figcaption, .image2 .imagem_inline._caption-inside > figcaption, .image2 .imagem_inline._caption-top > figcaption, .image2 .imagem_inline._caption-top-left > figcaption, .image2 .imagem_inline._caption-top-right > figcaption, .image2 .imagem_inline._caption-bottom-left > figcaption, .image2 .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -10426,7 +10536,7 @@ input[type="checkbox"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .image2 .css_04_image_lumen._caption-inside > figcaption::before, .image2 .css_04_image_lumen._caption-top > figcaption::before, .image2 .css_04_image_lumen._caption-top-left > figcaption::before, .image2 .css_04_image_lumen._caption-top-right > figcaption::before, .image2 .css_04_image_lumen._caption-bottom-left > figcaption::before, .image2 .css_04_image_lumen._caption-bottom-right > figcaption::before, .image2 .image._caption-inside > figcaption::before, .image2 .image._caption-top > figcaption::before, .image2 .image._caption-top-left > figcaption::before, .image2 .image._caption-top-right > figcaption::before, .image2 .image._caption-bottom-left > figcaption::before, .image2 .image._caption-bottom-right > figcaption::before, .image2._caption-inside > figcaption::before, .image2._caption-top > figcaption::before, .image2._caption-top-left > figcaption::before, .image2._caption-top-right > figcaption::before, .image2._caption-bottom-left > figcaption::before, .image2._caption-bottom-right > figcaption::before, .image2 .imagem_inline._caption-inside > figcaption::before, .image2 .imagem_inline._caption-top > figcaption::before, .image2 .imagem_inline._caption-top-left > figcaption::before, .image2 .imagem_inline._caption-top-right > figcaption::before, .image2 .imagem_inline._caption-bottom-left > figcaption::before, .image2 .imagem_inline._caption-bottom-right > figcaption::before {
+    .image2 .css_04_image_lumen._caption-inside > figcaption::before, .image2 .css_04_image_lumen._caption-top > figcaption::before, .image2 .css_04_image_lumen._caption-top-left > figcaption::before, .image2 .css_04_image_lumen._caption-top-right > figcaption::before, .image2 .css_04_image_lumen._caption-bottom-left > figcaption::before, .image2 .css_04_image_lumen._caption-bottom-right > figcaption::before, .image2 .image._caption-inside > figcaption::before, .image2 .image._caption-top > figcaption::before, .image2 .image._caption-top-left > figcaption::before, .image2 .image._caption-top-right > figcaption::before, .image2 .image._caption-bottom-left > figcaption::before, .image2 .image._caption-bottom-right > figcaption::before, .image2._caption-inside > figcaption::before, .image2._caption-top > figcaption::before, .image2._caption-top-left > figcaption::before, .image2._caption-top-right > figcaption::before, .image2._caption-bottom-left > figcaption::before, .image2._caption-bottom-right > figcaption::before, .image2 .imagem_titulo._caption-inside > figcaption::before, .image2 .imagem_titulo._caption-top > figcaption::before, .image2 .imagem_titulo._caption-top-left > figcaption::before, .image2 .imagem_titulo._caption-top-right > figcaption::before, .image2 .imagem_titulo._caption-bottom-left > figcaption::before, .image2 .imagem_titulo._caption-bottom-right > figcaption::before, .image2 .imagem_inline._caption-inside > figcaption::before, .image2 .imagem_inline._caption-top > figcaption::before, .image2 .imagem_inline._caption-top-left > figcaption::before, .image2 .imagem_inline._caption-top-right > figcaption::before, .image2 .imagem_inline._caption-bottom-left > figcaption::before, .image2 .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .image2._caption-inside > figcaption {
     right: 0;
@@ -10472,6 +10582,195 @@ input[type="checkbox"] {
       .image2._right {
         float: right;
         clear: right;
+        margin-left: 15px;
+        margin-right: 0px;
+        width: 46%;
+        z-index: 1; } }
+
+/* Image component style */
+.imagem_titulo {
+  margin: 12px auto;
+  position: relative;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* class styles for the captions properties of the image component */ }
+  .imagem_titulo ._image {
+    width: 100%; }
+  .imagem_titulo._image2_titulo {
+    margin: 0 auto !important; }
+  .imagem_titulo._fit_content {
+    width: fit-content; }
+  .imagem_titulo._fit_content_margin_auto {
+    width: fit-content;
+    margin: auto; }
+  .imagem_titulo .slider-title {
+    display: block;
+    align-items: left;
+    font-size: 20px;
+    font-family: "Red Hat Display";
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    margin: 0; }
+    .imagem_titulo .slider-title.artes {
+      border-color: #84a214;
+      color: #84a214 !important; }
+    .imagem_titulo .slider-title.biologia {
+      border-color: #BD8432;
+      color: #BD8432 !important; }
+    .imagem_titulo .slider-title.filosofia {
+      border-color: #208F6D;
+      color: #208F6D !important; }
+    .imagem_titulo .slider-title.fisica {
+      border-color: #BD8432;
+      color: #BD8432 !important; }
+    .imagem_titulo .slider-title.geografia {
+      border-color: #208F6D;
+      color: #208F6D !important; }
+    .imagem_titulo .slider-title.historia {
+      border-color: #208F6D;
+      color: #208F6D !important; }
+    .imagem_titulo .slider-title.lingua_inglesa {
+      border-color: #84A214;
+      color: #84A214 !important; }
+    .imagem_titulo .slider-title.lingua_portuguesa {
+      border-color: #84A214;
+      color: #84A214 !important; }
+    .imagem_titulo .slider-title.matematica {
+      border-color: #C09100;
+      color: #C09100 !important; }
+    .imagem_titulo .slider-title.producao_de_texto {
+      border-color: #84A214;
+      color: #84A214 !important; }
+    .imagem_titulo .slider-title.quimica {
+      border-color: #BD8432;
+      color: #BD8432 !important; }
+    .imagem_titulo .slider-title.sociologia {
+      border-color: #208F6D;
+      color: #208F6D !important; }
+  .imagem_titulo .slider-legenda {
+    font-family: "Red Hat Display";
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .imagem_titulo .slider-fonte {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Red Hat Display";
+    font-weight: 400;
+    margin: 0px 0px 0px 0px; }
+  .imagem_titulo .slider-subtitle::before {
+    content: "";
+    height: 2px;
+    width: 26%;
+    position: absolute;
+    left: 0;
+    top: -4px; }
+  .imagem_titulo.artes .slider-subtitle::before {
+    background-color: #bfd730; }
+  .imagem_titulo.lingua_portuguesa .slider-subtitle::before {
+    background-color: #bfd730; }
+  .imagem_titulo.lingua_inglesa .slider-subtitle::before {
+    background-color: #bfd730; }
+  .imagem_titulo.matematica .slider-subtitle::before {
+    background-color: #F1CB40; }
+  .imagem_titulo._left {
+    margin-left: 0px; }
+  .imagem_titulo._right {
+    margin-right: 0px; }
+  .imagem_titulo._100 img {
+    margin: auto; }
+  .imagem_titulo._200 img {
+    width: 30%;
+    margin: auto; }
+  .imagem_titulo.full-screen {
+    position: relative !important;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important; }
+    .imagem_titulo.full-screen > div {
+      height: 100%; }
+  .imagem_titulo._option1 > div {
+    border-radius: 25px; }
+  .imagem_titulo div {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center; }
+    .imagem_titulo div > a {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0; }
+  .imagem_titulo > figcaption {
+    color: #000000;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .imagem_titulo .css_04_image_lumen._caption-inside > figcaption, .imagem_titulo .css_04_image_lumen._caption-top > figcaption, .imagem_titulo .css_04_image_lumen._caption-top-left > figcaption, .imagem_titulo .css_04_image_lumen._caption-top-right > figcaption, .imagem_titulo .css_04_image_lumen._caption-bottom-left > figcaption, .imagem_titulo .css_04_image_lumen._caption-bottom-right > figcaption, .imagem_titulo .image._caption-inside > figcaption, .imagem_titulo .image._caption-top > figcaption, .imagem_titulo .image._caption-top-left > figcaption, .imagem_titulo .image._caption-top-right > figcaption, .imagem_titulo .image._caption-bottom-left > figcaption, .imagem_titulo .image._caption-bottom-right > figcaption, .imagem_titulo .image2._caption-inside > figcaption, .imagem_titulo .image2._caption-top > figcaption, .imagem_titulo .image2._caption-top-left > figcaption, .imagem_titulo .image2._caption-top-right > figcaption, .imagem_titulo .image2._caption-bottom-left > figcaption, .imagem_titulo .image2._caption-bottom-right > figcaption, .imagem_titulo._caption-inside > figcaption, .imagem_titulo._caption-top > figcaption, .imagem_titulo._caption-top-left > figcaption, .imagem_titulo._caption-top-right > figcaption, .imagem_titulo._caption-bottom-left > figcaption, .imagem_titulo._caption-bottom-right > figcaption, .imagem_titulo .imagem_inline._caption-inside > figcaption, .imagem_titulo .imagem_inline._caption-top > figcaption, .imagem_titulo .imagem_inline._caption-top-left > figcaption, .imagem_titulo .imagem_inline._caption-top-right > figcaption, .imagem_titulo .imagem_inline._caption-bottom-left > figcaption, .imagem_titulo .imagem_inline._caption-bottom-right > figcaption {
+    position: absolute;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    color: #3f3e3e;
+    margin: 0;
+    /* before represents the placeholder text*/ }
+    .imagem_titulo .css_04_image_lumen._caption-inside > figcaption::before, .imagem_titulo .css_04_image_lumen._caption-top > figcaption::before, .imagem_titulo .css_04_image_lumen._caption-top-left > figcaption::before, .imagem_titulo .css_04_image_lumen._caption-top-right > figcaption::before, .imagem_titulo .css_04_image_lumen._caption-bottom-left > figcaption::before, .imagem_titulo .css_04_image_lumen._caption-bottom-right > figcaption::before, .imagem_titulo .image._caption-inside > figcaption::before, .imagem_titulo .image._caption-top > figcaption::before, .imagem_titulo .image._caption-top-left > figcaption::before, .imagem_titulo .image._caption-top-right > figcaption::before, .imagem_titulo .image._caption-bottom-left > figcaption::before, .imagem_titulo .image._caption-bottom-right > figcaption::before, .imagem_titulo .image2._caption-inside > figcaption::before, .imagem_titulo .image2._caption-top > figcaption::before, .imagem_titulo .image2._caption-top-left > figcaption::before, .imagem_titulo .image2._caption-top-right > figcaption::before, .imagem_titulo .image2._caption-bottom-left > figcaption::before, .imagem_titulo .image2._caption-bottom-right > figcaption::before, .imagem_titulo._caption-inside > figcaption::before, .imagem_titulo._caption-top > figcaption::before, .imagem_titulo._caption-top-left > figcaption::before, .imagem_titulo._caption-top-right > figcaption::before, .imagem_titulo._caption-bottom-left > figcaption::before, .imagem_titulo._caption-bottom-right > figcaption::before, .imagem_titulo .imagem_inline._caption-inside > figcaption::before, .imagem_titulo .imagem_inline._caption-top > figcaption::before, .imagem_titulo .imagem_inline._caption-top-left > figcaption::before, .imagem_titulo .imagem_inline._caption-top-right > figcaption::before, .imagem_titulo .imagem_inline._caption-bottom-left > figcaption::before, .imagem_titulo .imagem_inline._caption-bottom-right > figcaption::before {
+      color: #3f3e3e; }
+  .imagem_titulo._caption-inside > figcaption {
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .imagem_titulo._caption-none > figcaption {
+    display: none; }
+  .imagem_titulo._caption-top > figcaption {
+    right: 0;
+    top: 0;
+    left: 0; }
+  .imagem_titulo._caption-top-left > figcaption {
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 30%; }
+  .imagem_titulo._caption-top-right > figcaption {
+    right: 0;
+    top: 0;
+    width: 30%; }
+  .imagem_titulo._caption-bottom-left > figcaption {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%; }
+  .imagem_titulo._caption-bottom-right > figcaption {
+    right: 0;
+    bottom: 0;
+    width: 30%; }
+  .imagem_titulo .image .place-holder:hover {
+    top: 0;
+    left: 0; }
+  @media only screen and (min-width: 481px) {
+    .imagem_titulo {
+      /* class styles for the position properties of the image component */ }
+      .imagem_titulo._left {
+        float: left;
+        clear: left;
+        width: 46%;
+        margin-right: 15px;
+        margin-left: 0px;
+        z-index: 1; }
+      .imagem_titulo._right {
+        float: right;
+        clear: right;
+        margin-left: 15px;
         margin-right: 0px;
         width: 46%;
         z-index: 1; } }
@@ -10514,7 +10813,7 @@ input[type="checkbox"] {
     color: #000000;
     font-family: "Red Hat Display";
     font-weight: 300; }
-  .imagem_inline .css_04_image_lumen._caption-inside > figcaption, .imagem_inline .css_04_image_lumen._caption-top > figcaption, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption, .imagem_inline .image._caption-inside > figcaption, .imagem_inline .image._caption-top > figcaption, .imagem_inline .image._caption-top-left > figcaption, .imagem_inline .image._caption-top-right > figcaption, .imagem_inline .image._caption-bottom-left > figcaption, .imagem_inline .image._caption-bottom-right > figcaption, .imagem_inline .image2._caption-inside > figcaption, .imagem_inline .image2._caption-top > figcaption, .imagem_inline .image2._caption-top-left > figcaption, .imagem_inline .image2._caption-top-right > figcaption, .imagem_inline .image2._caption-bottom-left > figcaption, .imagem_inline .image2._caption-bottom-right > figcaption, .imagem_inline._caption-inside > figcaption, .imagem_inline._caption-top > figcaption, .imagem_inline._caption-top-left > figcaption, .imagem_inline._caption-top-right > figcaption, .imagem_inline._caption-bottom-left > figcaption, .imagem_inline._caption-bottom-right > figcaption {
+  .imagem_inline .css_04_image_lumen._caption-inside > figcaption, .imagem_inline .css_04_image_lumen._caption-top > figcaption, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption, .imagem_inline .image._caption-inside > figcaption, .imagem_inline .image._caption-top > figcaption, .imagem_inline .image._caption-top-left > figcaption, .imagem_inline .image._caption-top-right > figcaption, .imagem_inline .image._caption-bottom-left > figcaption, .imagem_inline .image._caption-bottom-right > figcaption, .imagem_inline .image2._caption-inside > figcaption, .imagem_inline .image2._caption-top > figcaption, .imagem_inline .image2._caption-top-left > figcaption, .imagem_inline .image2._caption-top-right > figcaption, .imagem_inline .image2._caption-bottom-left > figcaption, .imagem_inline .image2._caption-bottom-right > figcaption, .imagem_inline .imagem_titulo._caption-inside > figcaption, .imagem_inline .imagem_titulo._caption-top > figcaption, .imagem_inline .imagem_titulo._caption-top-left > figcaption, .imagem_inline .imagem_titulo._caption-top-right > figcaption, .imagem_inline .imagem_titulo._caption-bottom-left > figcaption, .imagem_inline .imagem_titulo._caption-bottom-right > figcaption, .imagem_inline._caption-inside > figcaption, .imagem_inline._caption-top > figcaption, .imagem_inline._caption-top-left > figcaption, .imagem_inline._caption-top-right > figcaption, .imagem_inline._caption-bottom-left > figcaption, .imagem_inline._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -10522,7 +10821,7 @@ input[type="checkbox"] {
     color: #3f3e3e;
     margin: 0;
     /* before represents the placeholder text*/ }
-    .imagem_inline .css_04_image_lumen._caption-inside > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption::before, .imagem_inline .image._caption-inside > figcaption::before, .imagem_inline .image._caption-top > figcaption::before, .imagem_inline .image._caption-top-left > figcaption::before, .imagem_inline .image._caption-top-right > figcaption::before, .imagem_inline .image._caption-bottom-left > figcaption::before, .imagem_inline .image._caption-bottom-right > figcaption::before, .imagem_inline .image2._caption-inside > figcaption::before, .imagem_inline .image2._caption-top > figcaption::before, .imagem_inline .image2._caption-top-left > figcaption::before, .imagem_inline .image2._caption-top-right > figcaption::before, .imagem_inline .image2._caption-bottom-left > figcaption::before, .imagem_inline .image2._caption-bottom-right > figcaption::before, .imagem_inline._caption-inside > figcaption::before, .imagem_inline._caption-top > figcaption::before, .imagem_inline._caption-top-left > figcaption::before, .imagem_inline._caption-top-right > figcaption::before, .imagem_inline._caption-bottom-left > figcaption::before, .imagem_inline._caption-bottom-right > figcaption::before {
+    .imagem_inline .css_04_image_lumen._caption-inside > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-top-right > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-left > figcaption::before, .imagem_inline .css_04_image_lumen._caption-bottom-right > figcaption::before, .imagem_inline .image._caption-inside > figcaption::before, .imagem_inline .image._caption-top > figcaption::before, .imagem_inline .image._caption-top-left > figcaption::before, .imagem_inline .image._caption-top-right > figcaption::before, .imagem_inline .image._caption-bottom-left > figcaption::before, .imagem_inline .image._caption-bottom-right > figcaption::before, .imagem_inline .image2._caption-inside > figcaption::before, .imagem_inline .image2._caption-top > figcaption::before, .imagem_inline .image2._caption-top-left > figcaption::before, .imagem_inline .image2._caption-top-right > figcaption::before, .imagem_inline .image2._caption-bottom-left > figcaption::before, .imagem_inline .image2._caption-bottom-right > figcaption::before, .imagem_inline .imagem_titulo._caption-inside > figcaption::before, .imagem_inline .imagem_titulo._caption-top > figcaption::before, .imagem_inline .imagem_titulo._caption-top-left > figcaption::before, .imagem_inline .imagem_titulo._caption-top-right > figcaption::before, .imagem_inline .imagem_titulo._caption-bottom-left > figcaption::before, .imagem_inline .imagem_titulo._caption-bottom-right > figcaption::before, .imagem_inline._caption-inside > figcaption::before, .imagem_inline._caption-top > figcaption::before, .imagem_inline._caption-top-left > figcaption::before, .imagem_inline._caption-top-right > figcaption::before, .imagem_inline._caption-bottom-left > figcaption::before, .imagem_inline._caption-bottom-right > figcaption::before {
       color: #3f3e3e; }
   .imagem_inline._caption-inside > figcaption {
     right: 0;

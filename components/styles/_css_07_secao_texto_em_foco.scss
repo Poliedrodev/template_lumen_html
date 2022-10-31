@@ -1,0 +1,31 @@
+.css_07_secao_texto_em_foco {
+  background-color: #F7F9D9;
+  min-height: 100px;
+  position: relative;
+  padding: 38px 16px 16px 16px;
+  margin-top: 52px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+
+  .tag {
+    width: auto;
+    height: 44px;
+    background-color: #C51A1B;
+    position: absolute;
+    left: 0%;
+    top: -22px;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 42px;
+    font-family: $fonteNova;
+    font-weight: 700;
+  }
+
+  &.matematica {
+    .tag {
+      background-color: $mat_cor1;
+    }
+    background-color: $seg_mat_cor3;
+  }
+}
