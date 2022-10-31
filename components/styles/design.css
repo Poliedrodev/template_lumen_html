@@ -683,10 +683,54 @@ span[style="text-decoration: line-through;"] {
     line-height: 42px;
     font-family: "Titillium Web";
     font-weight: 700; }
+  .css_07_secao_texto_em_foco.arte {
+    background-color: #ECF0A6; }
+    .css_07_secao_texto_em_foco.arte .tag {
+      background-color: #64428C; }
+  .css_07_secao_texto_em_foco.biologia {
+    background-color: #FCE1BC; }
+    .css_07_secao_texto_em_foco.biologia .tag {
+      background-color: #45973D; }
+  .css_07_secao_texto_em_foco.filosofia {
+    background-color: #D7EDE3; }
+    .css_07_secao_texto_em_foco.filosofia .tag {
+      background-color: #536DA7; }
+  .css_07_secao_texto_em_foco.fisica {
+    background-color: #FCE1BC; }
+    .css_07_secao_texto_em_foco.fisica .tag {
+      background-color: #00909B; }
+  .css_07_secao_texto_em_foco.geografia {
+    background-color: #D7EDE3; }
+    .css_07_secao_texto_em_foco.geografia .tag {
+      background-color: #D85509; }
+  .css_07_secao_texto_em_foco.historia {
+    background-color: #D7EDE3; }
+    .css_07_secao_texto_em_foco.historia .tag {
+      background-color: #951B81; }
+  .css_07_secao_texto_em_foco.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .css_07_secao_texto_em_foco.lingua_inglesa .tag {
+      background-color: #069891; }
+  .css_07_secao_texto_em_foco.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .css_07_secao_texto_em_foco.lingua_portuguesa .tag {
+      background-color: #c9252c; }
   .css_07_secao_texto_em_foco.matematica {
     background-color: #FAEDBC; }
     .css_07_secao_texto_em_foco.matematica .tag {
       background-color: #1961AC; }
+  .css_07_secao_texto_em_foco.producao_de_texto {
+    background-color: #ECF0A6; }
+    .css_07_secao_texto_em_foco.producao_de_texto .tag {
+      background-color: #0F83A6; }
+  .css_07_secao_texto_em_foco.quimica {
+    background-color: #FCE1BC; }
+    .css_07_secao_texto_em_foco.quimica .tag {
+      background-color: #B80071; }
+  .css_07_secao_texto_em_foco.sociologia {
+    background-color: #D7EDE3; }
+    .css_07_secao_texto_em_foco.sociologia .tag {
+      background-color: #C71553; }
 
 .css_07_secao_arte_em_leitura {
   background-color: #F7F9D9;
@@ -10612,11 +10656,10 @@ input[type="checkbox"] {
     font-family: "Red Hat Display";
     border-top: solid 3px;
     border-bottom: solid 3px;
+    border-color: #d6d6d6;
+    color: #d6d6d6;
     margin: 0; }
-    .imagem_titulo .slider-title.artes {
-      border-color: #84a214;
-      color: #84a214 !important; }
-    .imagem_titulo .slider-title.biologia {
+    .imagem_titulo .slider-title.biologia .imagem_titulo .slider-title {
       border-color: #BD8432;
       color: #BD8432 !important; }
     .imagem_titulo .slider-title.filosofia {
@@ -10757,6 +10800,9 @@ input[type="checkbox"] {
   .imagem_titulo .image .place-holder:hover {
     top: 0;
     left: 0; }
+  .imagem_titulo.artes .imagem_titulo .slider-title {
+    border-color: #84a214;
+    color: #84a214 !important; }
   @media only screen and (min-width: 481px) {
     .imagem_titulo {
       /* class styles for the position properties of the image component */ }
