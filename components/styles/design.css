@@ -757,51 +757,51 @@ span[style="text-decoration: line-through;"] {
     font-weight: 700;
     z-index: 1; }
   .css_07_secao_texto_em_foco.arte {
-    background-color: #ECF0A6; }
+    background-color: #F7F9D9; }
     .css_07_secao_texto_em_foco.arte .tag {
       background-color: #64428C !important; }
   .css_07_secao_texto_em_foco.biologia {
-    background-color: #FCE1BC; }
+    background-color: #FEF2E3; }
     .css_07_secao_texto_em_foco.biologia .tag {
       background-color: #45973D; }
   .css_07_secao_texto_em_foco.filosofia {
-    background-color: #D7EDE3; }
+    background-color: #EEF7F3; }
     .css_07_secao_texto_em_foco.filosofia .tag {
       background-color: #536DA7; }
   .css_07_secao_texto_em_foco.fisica {
-    background-color: #FCE1BC; }
+    background-color: #FEF2E3; }
     .css_07_secao_texto_em_foco.fisica .tag {
       background-color: #00909B; }
   .css_07_secao_texto_em_foco.geografia {
-    background-color: #D7EDE3; }
+    background-color: #EEF7F3; }
     .css_07_secao_texto_em_foco.geografia .tag {
       background-color: #D85509; }
   .css_07_secao_texto_em_foco.historia {
-    background-color: #D7EDE3; }
+    background-color: #EEF7F3; }
     .css_07_secao_texto_em_foco.historia .tag {
       background-color: #951B81; }
   .css_07_secao_texto_em_foco.lingua_inglesa {
-    background-color: #ECF0A6; }
+    background-color: #F7F9D9; }
     .css_07_secao_texto_em_foco.lingua_inglesa .tag {
       background-color: #069891; }
   .css_07_secao_texto_em_foco.lingua_portuguesa {
-    background-color: #ECF0A6; }
+    background-color: #F7F9D9; }
     .css_07_secao_texto_em_foco.lingua_portuguesa .tag {
       background-color: #c9252c; }
   .css_07_secao_texto_em_foco.matematica {
-    background-color: #FAEDBC; }
+    background-color: #FDF7E2; }
     .css_07_secao_texto_em_foco.matematica .tag {
       background-color: #1961AC; }
   .css_07_secao_texto_em_foco.producao_de_texto {
-    background-color: #ECF0A6; }
+    background-color: #F7F9D9; }
     .css_07_secao_texto_em_foco.producao_de_texto .tag {
       background-color: #0F83A6; }
   .css_07_secao_texto_em_foco.quimica {
-    background-color: #FCE1BC; }
+    background-color: #FEF2E3; }
     .css_07_secao_texto_em_foco.quimica .tag {
       background-color: #B80071; }
   .css_07_secao_texto_em_foco.sociologia {
-    background-color: #D7EDE3; }
+    background-color: #EEF7F3; }
     .css_07_secao_texto_em_foco.sociologia .tag {
       background-color: #C71553; }
 
@@ -826,52 +826,50 @@ span[style="text-decoration: line-through;"] {
     font-weight: 700;
     height: 44px;
     z-index: 1; }
-    .css_07_secao_texto_em_foco_edit .tag.arte {
-      background-color: #ECF0A6; }
-      .css_07_secao_texto_em_foco_edit .tag.arte .tag {
-        background-color: #64428C !important; }
-    .css_07_secao_texto_em_foco_edit .tag.biologia {
-      background-color: #FCE1BC; }
-      .css_07_secao_texto_em_foco_edit .tag.biologia .tag {
-        background-color: #45973D; }
+    .css_07_secao_texto_em_foco_edit .tag.arte .tag {
+      background-color: #64428C !important;
+      background-color: #F7F9D9; }
+    .css_07_secao_texto_em_foco_edit .tag.biologia .tag {
+      background-color: #45973D;
+      background-color: #FEF2E3; }
     .css_07_secao_texto_em_foco_edit .tag.filosofia {
-      background-color: #D7EDE3; }
+      background-color: #EEF7F3; }
       .css_07_secao_texto_em_foco_edit .tag.filosofia .tag {
         background-color: #536DA7; }
     .css_07_secao_texto_em_foco_edit .tag.fisica {
-      background-color: #FCE1BC; }
+      background-color: #FEF2E3; }
       .css_07_secao_texto_em_foco_edit .tag.fisica .tag {
         background-color: #00909B; }
     .css_07_secao_texto_em_foco_edit .tag.geografia {
-      background-color: #D7EDE3; }
+      background-color: #EEF7F3; }
       .css_07_secao_texto_em_foco_edit .tag.geografia .tag {
         background-color: #D85509; }
     .css_07_secao_texto_em_foco_edit .tag.historia {
-      background-color: #D7EDE3; }
+      background-color: #EEF7F3; }
       .css_07_secao_texto_em_foco_edit .tag.historia .tag {
         background-color: #951B81; }
     .css_07_secao_texto_em_foco_edit .tag.lingua_inglesa {
-      background-color: #ECF0A6; }
+      background-color: #F7F9D9; }
       .css_07_secao_texto_em_foco_edit .tag.lingua_inglesa .tag {
         background-color: #069891; }
     .css_07_secao_texto_em_foco_edit .tag.lingua_portuguesa {
-      background-color: #ECF0A6; }
+      background-color: #F7F9D9; }
       .css_07_secao_texto_em_foco_edit .tag.lingua_portuguesa .tag {
         background-color: #c9252c; }
     .css_07_secao_texto_em_foco_edit .tag.matematica {
-      background-color: #FAEDBC; }
+      background-color: #FDF7E2; }
       .css_07_secao_texto_em_foco_edit .tag.matematica .tag {
         background-color: #1961AC; }
     .css_07_secao_texto_em_foco_edit .tag.producao_de_texto {
-      background-color: #ECF0A6; }
+      background-color: #F7F9D9; }
       .css_07_secao_texto_em_foco_edit .tag.producao_de_texto .tag {
         background-color: #0F83A6; }
     .css_07_secao_texto_em_foco_edit .tag.quimica {
-      background-color: #FCE1BC; }
+      background-color: #FEF2E3; }
       .css_07_secao_texto_em_foco_edit .tag.quimica .tag {
         background-color: #B80071; }
     .css_07_secao_texto_em_foco_edit .tag.sociologia {
-      background-color: #D7EDE3; }
+      background-color: #EEF7F3; }
       .css_07_secao_texto_em_foco_edit .tag.sociologia .tag {
         background-color: #C71553; }
   .css_07_secao_texto_em_foco_edit .main_texto_em_foco {
@@ -3309,6 +3307,51 @@ span[style="text-decoration: line-through;"] {
   .css_01_titulo1.matematica .icone {
     background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_MT.svg"); }
 
+.css_06_boxe_competencias {
+  /* Características do componente */
+  display: inline-flex;
+  margin-left: -8px;
+  /* Variações de cores */ }
+  .css_06_boxe_competencias .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    width: 61px;
+    height: 35px;
+    align-items: center;
+    margin-top: 15px;
+    background-repeat: no-repeat; }
+  .css_06_boxe_competencias .texto {
+    display: block;
+    color: #000000;
+    font-family: "Red Hat Display";
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-top: 15px; }
+  .css_06_boxe_competencias.artes .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_LT.svg"); }
+  .css_06_boxe_competencias.biologia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_06_boxe_competencias.quimica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_06_boxe_competencias.fisica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_06_boxe_competencias.geografia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_CS.svg"); }
+  .css_06_boxe_competencias.historia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_CS.svg"); }
+  .css_06_boxe_competencias.sociologia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_CS.svg"); }
+  .css_06_boxe_competencias.lingua_inglesa .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_LT.svg"); }
+  .css_06_boxe_competencias.lingua_portuguesa .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_LT.svg"); }
+  .css_06_boxe_competencias.producao_de_texto .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_LT.svg"); }
+  .css_06_boxe_competencias.filosofia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_CS.svg"); }
+  .css_06_boxe_competencias.matematica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_MT.svg"); }
+
 .css_01_titulo2 {
   /* Características do componente */
   display: block;
@@ -3409,11 +3452,11 @@ span[style="text-decoration: line-through;"] {
 
 .css_02_texto_citado_fonte {
   display: block;
-  color: #71706F;
+  text-align: right;
+  font-size: 14px;
+  color: #000000;
   font-family: "Red Hat Display";
   font-weight: 400;
-  font-size: 12px;
-  text-align: right;
   margin: 0px 0px 0px 0px; }
 
 .css_02_texto_citado_titulo {
@@ -4396,8 +4439,7 @@ span[style="text-decoration: line-through;"] {
   color: #000000;
   font-family: "Red Hat Display";
   font-weight: 400;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 68px 0px 108px; }
+  margin: 0px 0px 0px 0px; }
 
 .css_05_grafico_texto {
   display: block;
@@ -5921,6 +5963,11 @@ span[style="text-decoration: line-through;"] {
   /* class styles for the captions properties of the image component */ }
   .image ._image {
     width: 100%; }
+  .image._fit_content {
+    width: fit-content; }
+  .image._fit_content_margin_auto {
+    width: fit-content;
+    margin: auto; }
   .image._image_titulo {
     margin: 0 auto !important; }
     .image._image_titulo figcaption {
@@ -8096,7 +8143,8 @@ a {
   align-items: center; }
 
 .css_02_texto_glossario_drop {
-  margin-top: 32px; }
+  margin-top: 32px;
+  padding-bottom: 16px; }
   .css_02_texto_glossario_drop .collapsible-title {
     margin: 0;
     color: #000000; }
@@ -11070,13 +11118,19 @@ input[type="checkbox"] {
   /* class styles for the captions properties of the image component */ }
   .image2 ._image {
     width: 100%; }
-  .image2._image2_titulo {
-    margin: 0 auto !important; }
   .image2._fit_content {
     width: fit-content; }
   .image2._fit_content_margin_auto {
     width: fit-content;
     margin: auto; }
+  .image2._image2_titulo {
+    margin: 0 auto !important; }
+    .image2._image2_titulo figcaption {
+      color: #000000;
+      padding-left: 68px;
+      padding-right: 68px;
+      margin-top: 4px;
+      margin-bottom: 2px; }
   .image2 .slider-subtitle {
     position: relative;
     margin-top: 8px; }

@@ -11,6 +11,15 @@
       width: 100%;
     }
   
+    &._fit_content {
+      width: fit-content;
+    }
+  
+    &._fit_content_margin_auto {
+      width: fit-content;
+      margin: auto;
+    }
+    
     &._image_titulo{
       margin: 0 auto !important;
       figcaption {

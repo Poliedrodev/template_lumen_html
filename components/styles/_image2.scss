@@ -7,12 +7,8 @@
   flex-direction: column;
   width: 100%;
 
-  ._image {
+  ._image{
     width: 100%;
-  }
-
-  &._image2_titulo{
-    margin: 0 auto !important;
   }
 
   &._fit_content {
@@ -22,6 +18,18 @@
   &._fit_content_margin_auto {
     width: fit-content;
     margin: auto;
+  }
+  
+  &._image2_titulo{
+    margin: 0 auto !important;
+    figcaption {
+      color: #000000;
+      padding-left: 68px;
+      padding-right: 68px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+    }
+
   }
 
   .slider-subtitle {

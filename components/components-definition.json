@@ -966,6 +966,7 @@
         }
       }
     },
+
     {
       "name": "css_01_titulo1",
       "icon": "icons/components/icon_01_titulo1.svg",
@@ -982,6 +983,24 @@
         }
       }
     },
+
+    {
+      "name": "css_06_boxe_competencias",
+      "icon": "icons/components/icon_01_titulo1.svg",
+      "label": "Boxe Competências",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+
     {
       "name": "css_01_titulo2",
       "icon": "icons/components/icon_01_titulo2.svg",
@@ -3251,7 +3270,6 @@
         "style_image_fit_content",
         "width",
         "position",
-        "style",
         "inside-caption",
         "text-align",
         {
@@ -3952,12 +3970,9 @@
     {
       "name": "image2",
       "icon": "icons/components/image.svg",
-      "label": {
-        "key": "COMPONENT_IMAGE_LABEL"
-      },
+      "label": "Imagem Lumen",
       "properties": [
         "position",
-        "style",
         "style_image",
         "inside-caption",
         "width",
@@ -4892,6 +4907,7 @@
         "06_BOXE_02",
         "06_BOXE_19",
         "css_06_boxe_bullet",
+        "css_06_boxe_competencias",
         "css_06_boxe_exercicio_continuacao",
         "css_06_boxe_exercicio",
         "css_06_boxe_item",
@@ -5027,7 +5043,7 @@
       },
       "name": "media",
       "components": [
-        "image2",
+        "image",
         "imagem_titulo",
         "embed",
         "product",
@@ -5086,16 +5102,7 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "Tamanho real ao meio"
-              }
-            },
-            "value": "_fit_content_margin_auto"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "Imagem Título (remove as margens)"
+                "0": "Imagem de Abertura"
               }
             },
             "value": "_image_titulo"
@@ -6409,8 +6416,17 @@
         "container": "slideshow"
       }
     },
+
     "image": {
       "image_inline": "auto"
+    },
+
+    "css_02_texto_geral1": {
+      "css_06_boxe_competencias": "auto"
+    },
+
+    "css_02_texto_geral": {
+      "css_06_boxe_competencias": "auto"
     },
 
     "slideshow_2_images": {

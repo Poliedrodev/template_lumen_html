@@ -1,0 +1,109 @@
+.css_06_boxe_competencias {
+
+  /* Características do componente */
+  display: inline-flex;
+  margin-left: -8px;
+
+  .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    width: 61px;
+    height: 35px;
+    align-items: center;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+  }
+
+  .texto {
+    display: block;
+    color: $textColor;
+    font-family: $fontPrincipal;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  /* Variações de cores */
+  &.artes {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_LT.svg");
+    }
+
+  }
+
+  &.biologia {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+  &.quimica {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+  &.fisica {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    }
+
+  }
+
+
+  &.geografia {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_CS.svg");
+    }
+  }
+
+
+  &.historia {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_CS.svg");
+    }
+  }
+
+
+  &.sociologia {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_CS.svg");
+    }
+  }
+
+
+  &.lingua_inglesa {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_LT.svg");
+    }
+
+  }
+
+  &.lingua_portuguesa {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_LT.svg");
+    }
+
+  }
+
+  &.producao_de_texto {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_LT.svg");
+    }
+
+  }
+  &.filosofia {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_CS.svg");
+    }
+  }
+
+  &.matematica {
+    .icone {
+      background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1_MT.svg");
+    }
+  }
+
+}
