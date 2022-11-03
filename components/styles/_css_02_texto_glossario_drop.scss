@@ -7,51 +7,51 @@
     }
 
     &.artes {
-        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_lin_cor3;
     }
 
     &.biologia {
-        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_nat_cor3;
     }
 
     &.filosofia {
-        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_hum_cor3;
     }
 
     &.fisica {
-        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_nat_cor3;
     }
 
     &.geografia {
-        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_hum_cor3;
     }
 
     &.historia {
-        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_hum_cor3;
     }
 
     &.lingua_inglesa {
-        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_lin_cor3;
     }
 
     &.lingua_portuguesa {
-        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_lin_cor3;
     }
 
     &.matematica {
-        background: linear-gradient(180deg, rgba(250, 237, 188, 1) 25%, rgba(255, 255, 255, 1) 100%) !important;
+        background: $seg_mat_cor3;
     }
 
     &.producao_de_texto {
-        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_lin_cor3;
     }
 
     &.quimica {
-        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_nat_cor3;
     }
 
     &.sociologia {
-        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
+        background: $seg_hum_cor3;
     }
 }
 

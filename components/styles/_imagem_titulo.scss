@@ -26,9 +26,8 @@
 
   .slider-title {
     display: block;
-    align-items: left;
-    font-size: 20px;  
-    font-family: $fontPrincipal;
+    font-size: 20px !important;
+    font-family: $fontPrincipal !important;
     border-top: solid 3px;
     border-bottom: solid 3px;
     border-color: $cinza;
@@ -37,58 +36,58 @@
 
     &.biologia {
       .imagem_titulo .slider-title {
-        border-color: #BD8432;
+        border-color: #BD8432 !important;
       color: #BD8432 !important;
       }
     }
     &.filosofia {
-      border-color: #208F6D;
+      border-color: #208F6D !important;
       color: #208F6D !important;
     }
     &.fisica {
-      border-color: #BD8432;
+      border-color: #BD8432 !important;
       color: #BD8432 !important;
     }
     &.geografia {
-      border-color: #208F6D;
+      border-color: #208F6D !important;
       color: #208F6D !important;
     }
     &.historia {
-      border-color: #208F6D;
+      border-color: #208F6D !important;
       color: #208F6D !important;
     }
     &.lingua_inglesa {
-      border-color: #84A214;
+      border-color: #84A214 !important;
       color: #84A214 !important;
     }
     &.lingua_portuguesa {
-      border-color: #84A214;
+      border-color: #84A214 !important;
       color: #84A214 !important;
     }
     &.matematica {
-      border-color: #C09100;
+      border-color: #C09100 !important;
       color: #C09100 !important;
     }
     &.producao_de_texto {
-      border-color: #84A214;
+      border-color: #84A214 !important;
       color: #84A214 !important;
     }
     &.quimica {
-      border-color: #BD8432;
+      border-color: #BD8432 !important;
       color: #BD8432 !important;
     }
     &.sociologia {
-      border-color: #208F6D;
+      border-color: #208F6D !important;
       color: #208F6D !important;
     }
   }
   
   .slider-legenda {
-    font-family: $fontPrincipal;
-    font-weight: 400;
+    font-family: $fontPrincipal !important;
+    font-weight: 400 !important;
     color: $preto;
     text-align: left;
-    font-size: 14px;
+    font-size: 14px !important;
     margin-top: 4px;
     margin-bottom: 2px;
   }
@@ -96,10 +95,10 @@
   .slider-fonte {
   display: block;
   text-align: right;
-  font-size: 14px;
+  font-size: 14px !important;
   color: #000000;
-  font-family: $fontPrincipal;
-  font-weight: 400;
+  font-family: $fontPrincipal !important;
+  font-weight: 400 !important;
   margin: 0px 0px 0px 0px;
 }
 

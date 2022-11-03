@@ -85,10 +85,25 @@
         "style"
       ]
     },
+
     {
       "name": "css_07_secao_no_enem_e_assim",
       "icon": "icons/components/container.svg",
       "label": "No Enem é Assim",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
+    {
+      "name": "css_07_secao_no_enem_e_assim_edit",
+      "icon": "icons/components/container.svg",
+      "label": "No Enem é Assim Editável",
       "selectionMethod": "handle",
       "allowNesting": "yes",
       "properties": [
@@ -128,6 +143,20 @@
     },
 
     {
+      "name": "css_07_secao_texto_em_foco_edit",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Texto em Foco Editável",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
+    {
       "name": "css_07_secao_arte_em_leitura",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
@@ -151,6 +180,7 @@
         "line-height"
       ]
     },
+
     {
       "name": "css_07_secao_leitura_de_documentos",
       "icon": "icons/components/container.svg",
@@ -162,6 +192,19 @@
         "line-height"
       ]
     },
+
+    {
+      "name": "css_07_secao_leitura_de_documentos_edit",
+      "icon": "icons/components/container.svg",
+      "label": "Leitura de Documentos Editável",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
     {
       "name": "css_07_secao_questao_resolvida",
       "icon": "icons/components/container.svg",
@@ -217,6 +260,7 @@
         "text-align"
       ]
     },
+
     {
       "name": "06_BOXE_02",
       "icon": "icons/components/container.svg",
@@ -226,6 +270,17 @@
         "text-align"
       ]
     },
+
+    {
+      "name": "06_BOXE_02_edit",
+      "icon": "icons/components/container.svg",
+      "label": "Mais Editável",
+      "properties": [
+        "style_areas",
+        "text-align"
+      ]
+    },
+
     {
       "name": "06_BOXE_03",
       "icon": "icons/components/container.svg",
@@ -235,6 +290,17 @@
         "text-align"
       ]
     },
+
+    {
+      "name": "06_BOXE_03_edit",
+      "icon": "icons/components/container.svg",
+      "label": "Discussão em sala Editável",
+      "properties": [
+        "style_areas",
+        "text-align"
+      ]
+    },
+
     {
       "name": "06_BOXE_04",
       "icon": "icons/components/container.svg",
@@ -244,6 +310,17 @@
         "text-align"
       ]
     },
+
+    {
+      "name": "06_BOXE_04_edit",
+      "icon": "icons/components/container.svg",
+      "label": "Experimento Editável",
+      "properties": [
+        "style_areas",
+        "text-align"
+      ]
+    },
+
     {
       "name": "06_BOXE_19",
       "icon": "icons/components/container.svg",
@@ -1829,7 +1906,7 @@
     {
       "name": "css_04_image_lumen",
       "icon": "icons/components/image.svg",
-      "label": "Imagem Lumen Professor",
+      "label": "Imagem Professor",
       "properties": [
         "position",
         "width",
@@ -2541,6 +2618,7 @@
         }
       }
     },
+
     {
       "name": "css_07_secao_consolidando_saberes",
       "icon": "icons/components/icon_07_secao_texto2.svg",
@@ -2552,6 +2630,19 @@
         "line-height"
       ]
     },
+
+    {
+      "name": "css_07_secao_consolidando_saberes_edit",
+      "icon": "icons/components/icon_07_secao_texto2.svg",
+      "label": "Consolidando Saberes Editável",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
     {
       "name": "css_07_secao_superacao",
       "icon": "icons/components/icon_07_secao_texto2.svg",
@@ -2563,6 +2654,19 @@
         "line-height"
       ]
     },
+
+    {
+      "name": "css_07_secao_superacao_edit",
+      "icon": "icons/components/icon_07_secao_texto2.svg",
+      "label": "Superação Editável",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
     {
       "name": "css_07_secao_titulo_citado",
       "icon": "icons/components/icon_07_secao_titulo_citado.svg",
@@ -4642,6 +4746,23 @@
         "quebra_pagina"
       ]
     },
+
+    {
+      "label": "Títulos editáveis",
+      "name": "titulos_editaveis",
+      "components": [
+        "06_BOXE_03_edit",
+        "06_BOXE_04_edit",
+        "06_BOXE_02_edit",
+        "css_07_secao_questao_resolvida",
+        "css_07_secao_consolidando_saberes_edit",
+        "css_07_secao_leitura_de_documentos_edit",
+        "css_07_secao_no_enem_e_assim_edit",
+        "css_07_secao_superacao_edit",
+        "css_07_secao_texto_em_foco_edit"
+      ]
+    },
+
     {
       "label": "Questões",
       "name": "questoes",
