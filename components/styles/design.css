@@ -826,12 +826,14 @@ span[style="text-decoration: line-through;"] {
     font-weight: 700;
     height: 44px;
     z-index: 1; }
-    .css_07_secao_texto_em_foco_edit .tag.arte .tag {
-      background-color: #64428C !important;
+    .css_07_secao_texto_em_foco_edit .tag.arte {
       background-color: #F7F9D9; }
-    .css_07_secao_texto_em_foco_edit .tag.biologia .tag {
-      background-color: #45973D;
+      .css_07_secao_texto_em_foco_edit .tag.arte .tag {
+        background-color: #64428C !important; }
+    .css_07_secao_texto_em_foco_edit .tag.biologia {
       background-color: #FEF2E3; }
+      .css_07_secao_texto_em_foco_edit .tag.biologia .tag {
+        background-color: #45973D; }
     .css_07_secao_texto_em_foco_edit .tag.filosofia {
       background-color: #EEF7F3; }
       .css_07_secao_texto_em_foco_edit .tag.filosofia .tag {
@@ -4663,7 +4665,8 @@ span[style="text-decoration: line-through;"] {
 .css_06_boxe_titulo2 {
   display: block;
   text-align: left;
-  font-size: 26px;
+  font-size: 22px;
+  line-height: 1.5;
   font-family: "Red Hat Display";
   margin: 0px; }
   .css_06_boxe_titulo2.artes {
