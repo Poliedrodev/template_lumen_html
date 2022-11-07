@@ -1,12 +1,12 @@
 .css_06_boxe_competencias {
 
   /* Características do componente */
-  display: inline-flex;
-  margin-left: -8px;
+  display: -webkit-box;
+  margin-left: -10px;
 
   .icone {
     background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
-    width: 61px;
+    width: 28px;
     height: 35px;
     align-items: center;
     margin-top: 15px;
