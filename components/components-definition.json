@@ -29,6 +29,7 @@
         "style"
       ]
     },
+
     {
       "name": "css_01_titulo_cap_num_v2",
       "icon": "icons/components/icon_01_titulo_cap.svg",
@@ -39,6 +40,18 @@
         "style"
       ]
     },
+
+    {
+      "name": "css_01_titulo_chapter_num_v2",
+      "icon": "icons/components/icon_01_titulo_cap.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Chapter Lumen",
+      "properties": [
+        "style"
+      ]
+    },
+
     {
       "name": "css_01_titulo_cap_num",
       "icon": "icons/components/icon_01_titulo_cap.svg",
@@ -3889,6 +3902,7 @@
         "line-height"
       ]
     },
+
     {
       "name": "css_06_boxe_em_quimica",
       "icon": "icons/components/icon_06_boxe_item.svg",
@@ -3900,6 +3914,19 @@
         "line-height"
       ]
     },
+
+    {
+      "name": "css_06_boxe_in_other_areas",
+      "icon": "icons/components/icon_06_boxe_item.svg",
+      "label": "Boxe In Other Areas",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
     {
       "name": "css_06_boxe_em_sociologia",
       "icon": "icons/components/icon_06_boxe_item.svg",
@@ -4805,6 +4832,7 @@
       "name": "01_aberturas_e_titulos",
       "components": [
         "css_01_titulo_cap_num_v2",
+        "css_01_titulo_chapter_num_v2",
         "css_01_texto_unid",
         "css_01_titulo1",
         "css_01_titulo2",
@@ -4933,6 +4961,7 @@
         "css_06_boxe_em_quimica",
         "css_06_boxe_em_sociologia",
         "css_06_boxe_fique_ligado",
+        "css_06_boxe_in_other_areas",
         "css_06_boxe_watch_out"
       ]
     },
