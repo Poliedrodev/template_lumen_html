@@ -3308,7 +3308,6 @@
       }
     },
 
-
     {
       "name": "audio_interno",
       "icon": "icons/components/icon_00_arte.svg",
@@ -3339,6 +3338,7 @@
         }
       ]
     },
+
     {
       "name": "video_interno",
       "icon": "icons/components/video.svg",
@@ -3361,6 +3361,7 @@
         "line-height"
       ]
     },
+
     {
       "name": "video_externo",
       "icon": "icons/components/video.svg",
@@ -3383,6 +3384,7 @@
         "line-height"
       ]
     },
+
     {
       "name": "embed",
       "icon": "icons/components/embed.svg",
